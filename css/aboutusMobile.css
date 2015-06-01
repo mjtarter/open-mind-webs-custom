@@ -1,0 +1,1229 @@
+/* ==========================================================================
+   Base styles: opinionated defaults
+   ========================================================================== */
+
+html,
+button,
+input,
+select,
+textarea {
+    color: #222;
+}
+
+html {   
+    font-size: 1em;
+    line-height: 1.4;
+}
+
+/*
+ * Remove text-shadow in selection highlight: h5bp.com/i
+ * These selection rule sets have to be separate.
+ * Customize the background color to match your design.
+ */
+
+::-moz-selection {
+    background: #b3d4fc;
+    text-shadow: none;
+}
+
+::selection {
+    background: #b3d4fc;
+    text-shadow: none;
+}
+
+/*
+ * A better looking default horizontal rule
+ */
+
+hr {
+    display: block;
+    height: 1px;
+    border: 0;
+    border-top: 1px solid #ccc;
+    margin: 1em 0;
+    padding: 0;
+}
+
+/*
+ * Remove the gap between images, videos, audio and canvas and the bottom of
+ * their containers: h5bp.com/i/440
+ */
+
+audio,
+canvas,
+img,
+video {
+    vertical-align: middle;
+}
+
+/*
+ * Remove default fieldset styles.
+ */
+
+fieldset {
+    border: 0;
+    margin: 0;
+    padding: 0;
+}
+
+/*
+ * Allow only vertical resizing of textareas.
+ */
+
+textarea {
+    resize: vertical;
+}
+
+/* ==========================================================================
+   Browse Happy prompt
+   ========================================================================== */
+
+.browsehappy {
+    margin: 0.2em 0;
+    background: #ccc;
+    color: #000;
+    padding: 0.2em 0;
+}
+
+/* ==========================================================================
+   Author's custom styles
+   ========================================================================== */
+body {  
+	background-image:url(/img/idkman22.jpg);
+	width:100%;
+	min-width:1100px;
+	min-height:100%;
+}
+
+a:visited {
+	color:black;
+} 
+
+.h3-top {
+	float:left;
+}
+
+.icons {
+	text-align:right; 
+	margin:0; 
+	padding:0;
+}
+
+a:link {text-decoration:none; color:black;}
+
+.Service a:link, .Service a:visited {
+	text-decoration:underline;
+}
+
+a:hover {
+	background: tan;
+	color:white;
+}
+	
+a:active {
+	color:black;
+}
+
+.Header {
+	width:100%;
+	min-width:1100px;
+	float:left;
+	position:absolute;
+	top:0px;
+	left:0px;
+	z-index:1;
+	background-color:orange;
+	border-bottom:black 3px solid;
+	border-top:black solid 3px;
+}
+
+#head {
+    max-width: 100%;
+}
+
+.LogoContainer {
+	float:left;
+	min-width:15%;
+	min-height:140px;
+}
+
+.LeftTextContainer {
+	width:25.2%;
+	float:left;
+	padding-left:20px;
+	margin-top:16px;
+	min-width:240px;
+	font-family:"Lucida Sans Unicode", "Lucida Grande", "sans-serif";
+}
+
+.SloganContainer {
+	font-size:1.6em;
+	margin-top:20px; 
+	text-align:center;
+}
+
+.ContainerInHeader {
+	width:100%;
+	max-width:1100px;
+	margin-right:auto;
+	margin-left:auto;
+}
+
+.HeaderSlogan {
+	text-align:center;
+	font-size:.9375em;
+	text-align:center;
+}
+
+ul#Navigation {
+	margin: 0; padding: 0;
+	margin-left:auto;
+	margin-right:auto;
+	margin-top:23px;
+	margin-bottom:23px;
+	float: right;
+	width: 50%;
+	min-width:450px;
+	list-style: none; 
+	font-size: 1.1875em;
+	font-family:"Lucida Sans Unicode", "Lucida Grande", "sans-serif";
+}
+	
+ul#Navigation li {
+	float: right;
+	margin-left: 0; 
+	padding: 0;
+}
+
+ul#Navigation li a {
+	padding: 30px 15px;
+	display: block;
+	text-decoration: none;
+}
+
+ul#Navigation li:hover {
+	background: tan url(topnav_active.gif) repeat-x; 
+}
+
+ul#Navigation li span {
+	float: left;
+	padding: 15px 0;
+	display: none;
+	width: 54.55%;
+	background: tan;
+	color: black;
+	-moz-border-radius-bottomright: 5px;
+	-khtml-border-radius-bottomright: 5px;
+	-webkit-border-bottom-right-radius: 5px;
+	-moz-border-radius-bottomleft: 5px;
+	-khtml-border-radius-bottomleft: 5px;
+	-webkit-border-bottom-left-radius: 5px;
+}
+
+ul#Navigation li:hover span { 
+	display: block; 
+}
+
+ul#Navigation li span a { 
+	display: inline; 
+}
+
+ul#Navigation li span a:hover {
+	text-decoration: underline;
+}
+
+.PageContainer {
+	width:100%;
+	margin-top:180px;
+	max-width:980px;
+	min-width:767px;
+	margin-left:auto;
+	margin-right:auto;
+}
+
+.TopWrapper {
+	width:100%;
+	overflow:auto;
+	display:table;
+}
+
+.Service {
+	width:61%;
+	display:table-cell;
+	padding-left:7px;
+	margin-top:30px;
+}
+
+.MattQuote {
+	display:table-cell;
+	vertical-align:middle;
+	padding-left:8%;
+	max-width:310px;
+}
+
+.CompanyComparison {
+	width:100%;
+	min-width:767px;
+	margin-top:50px;
+}
+
+.Template {
+	width:30%;
+	min-width:230px;
+	float:left;
+	height:auto;
+	text-align:center;
+}
+
+.omw {
+	width:30%;
+	min-width:230px;
+	float:left;
+	height:auto;
+	text-align:center;
+	margin-right:5%;
+	margin-left:5%;
+}
+
+.webcompany {
+	width:30%;
+	min-width:230px;
+	float:left;
+	height:auto;
+	text-align:center;
+}
+
+.Matt {
+	max-width:62%;
+	display:inline-block;
+	min-width:400px;
+	margin-top:40px;
+	margin-right:3%;
+	margin-bottom:80px;
+}
+
+.MattImage{
+	float:left;
+	margin-right:15px;
+	margin-top:25px; 
+	padding-bottom:75px;
+}
+
+.GetStarted {
+	max-width:100%;
+	min-width:300px;
+	margin-left:auto;
+	margin-right:auto;
+	display:table;
+	clear:both;
+	padding-bottom:40px;
+}
+
+.Jeff {
+	max-width:62%;
+	text-align:center;
+	float:left;
+	min-width:300px;
+	margin-top:60px;
+}
+
+.WhyUs {
+	width:30%;
+	min-width:190px;
+	float:right;
+	margin-top:40px;
+}
+
+.Button {
+	width:255px;
+	display: inline-block;
+	padding: 10px 20px 11px !important;
+	font-size: 24px !important;
+	background-color: orange;
+	text-align:center;
+	font-weight: bold;
+	text-shadow: 1px 1px black;
+	color: #ffffff;
+	border-radius: 100px;
+	-moz-border-radius: 100px;
+	-webkit-border-radius: 100px;
+	border: 2px solid white;
+	cursor: pointer;
+	box-shadow: 0 1px 0 rgba(255, 255, 255, 0.5) inset;
+	-moz-box-shadow: 0 1px 0 rgba(255, 255, 255, 0.5) inset;
+	-webkit-box-shadow: 0 1px 0 rgba(255, 255, 255, 0.5) inset;
+}
+
+	.Button:hover {
+	background:tan;
+	}
+
+.ServicesTitle {
+	width:100%;
+	height:30px;
+	border-bottom:solid black 2px;
+	font-size:20px;
+	padding-top:7px;
+}
+
+.FooterContainer {
+	float:left;
+	width:100%;
+	min-width:1100px;
+	height:285px;
+	background-image:url(/img/merp.png);
+	left:0px;
+	right:0px;
+	position:absolute;
+	border-top: solid black 3px;
+}
+
+.PageContainer2 {
+	margin-right:auto;
+	margin-left:auto;
+	max-width:1100px;
+	min-width:767px;
+}
+
+.FooterLeftContainer {
+	width:38%;
+	min-width:400px;
+	float:left;
+	line-height:220%;
+	font-family:"Lucida Sans Unicode", "Lucida Grande", "sans-serif";
+}
+
+.FooterMiddle {
+	float:left;
+	width:24%;
+	min-width:75px;
+	padding-top:7px;
+}
+
+.FooterRightWrapper {
+	width:38%;
+	max-width:500px;
+	min-width:300px;
+	float:right;
+	font-family:"Lucida Sans Unicode", "Lucida Grande", "sans-serif";
+}
+
+.FTextLeft {
+	float:left;
+	line-height:220%;
+}
+
+.FTextRight {
+	float:right;
+}
+
+.Righty {
+	float:right;
+}
+
+.FootR {
+	float:right;
+}
+
+.Link {
+	height:auto;
+	width:auto;
+	margin-top:0px;
+}
+ 
+	.Link:hover {
+		background: tan;
+		cursor: pointer;
+		color:white;
+	}	
+
+.FooterServicesText {
+	height:130px;
+	width:223px;
+	font-family:"Lucida Sans Unicode", "Lucida Grande", "sans-serif";
+	float:left;
+	line-height:220%;
+	font-size:16px;
+}
+
+.FooterConnectText {
+	height:130px;
+	width:247px;
+	font-family:"Lucida Sans Unicode", "Lucida Grande", "sans-serif";
+	float:left;
+	line-height:220%;
+	padding-left:30px;
+}
+
+.FooterServices2Text {
+	height:130px;
+	width:244px;
+	font-family:"Lucida Sans Unicode", "Lucida Grande", "sans-serif";
+	line-height:220%;
+	float:right;
+} 
+
+.FooterConnect2Text {
+	height:160px;
+	width:190px;
+	font-family:"Lucida Sans Unicode", "Lucida Grande", "sans-serif";
+	float:right;
+}
+
+.SocialMediaLogo {
+	height:160px;
+	width:45px;
+	line-height:200%;
+	float:right; 
+	padding-left:15px;
+}
+
+.SocialMedia {
+	height:160px;
+	width:125px;
+	float:right;
+	line-height:200%;
+}
+
+.FooterLogoContainer {
+	height:205px;
+	width:185px;
+	margin-left:auto;
+	margin-right:auto;
+	padding-top:10px;
+}
+
+.FooterSlogan {
+	font-family:"Lucida Sans Unicode", "Lucida Grande", "sans-serif";
+	height:40px;
+	width:300px;
+	line-height:200%;
+	margin-right:auto;
+	margin-left:auto;
+}
+
+.Media {
+	float:right;
+	background-color:White;
+}
+
+.worker {
+	display:table-cell;
+	vertical-align:middle;
+}
+
+Mid {
+	display:table-cell;
+	vertical-align:middle;
+}
+ 
+.Individual2 {
+	float:left;
+	height:30px;
+	margin-top:12px;
+}
+
+.Copyright {
+	height:40px;
+	width:100%;
+	background-color:black;
+	text-align:center;
+	position:absolute;
+	bottom:0;
+	color:white;
+	line-height:250%;
+	border-top:2px solid tan;
+}
+
+.Quote {
+	margin-top:22px;
+}
+
+.CenterText {
+	text-align:center;
+}
+
+.JHdesign {
+	width:100px;
+	height:50px;
+	float:right;
+}
+
+.HomeTab,
+#menu,
+#nav,
+.WhyUser,
+.MattQuote2,
+.NavMobile,
+.Tab2,
+.MattImage2,
+.LogoContainerSmall,
+.JeffImage2,
+.Copyright2,
+.GetStarted2,
+.MobileFooter,
+.MidTable {
+	display:none;
+}
+
+
+/* ==========================================================================
+   Helper classes
+   ========================================================================== */
+
+/*
+ * Image replacement
+ */
+
+.ir {
+    background-color: transparent;
+    border: 0;
+    overflow: hidden;
+    /* IE 6/7 fallback */
+    *text-indent: -9999px;
+}
+
+.ir:before {
+    content: "";
+    display: block;
+    width: 0;
+    height: 150%;
+}
+
+/*
+ * Hide from both screenreaders and browsers: h5bp.com/u
+ */
+
+.hidden {
+    display: none !important;
+    visibility: hidden;
+}
+
+/*
+ * Hide only visually, but have it available for screenreaders: h5bp.com/v
+ */
+
+.visuallyhidden {
+    border: 0;
+    clip: rect(0 0 0 0);
+    height: 1px;
+    margin: -1px;
+    overflow: hidden;
+    padding: 0;
+    position: absolute;
+    width: 1px;
+}
+
+
+
+/*
+ * Extends the .visuallyhidden class to allow the element to be focusable
+ * when navigated to via the keyboard: h5bp.com/p
+ */
+
+.visuallyhidden.focusable:active,
+.visuallyhidden.focusable:focus {
+    clip: auto;
+    height: auto;
+    margin: 0;
+    overflow: visible;
+    position: static;
+    width: auto;
+}
+
+/*
+ * Hide visually and from screenreaders, but maintain layout
+ */
+
+.invisible {
+    visibility: hidden;
+}
+
+/*
+ * Clearfix: contain floats
+ *
+ * For modern browsers
+ * 1. The space content is one way to avoid an Opera bug when the
+ *    `contenteditable` attribute is included anywhere else in the document.
+ *    Otherwise it causes space to appear at the top and bottom of elements
+ *    that receive the `clearfix` class.
+ * 2. The use of `table` rather than `block` is only necessary if using
+ *    `:before` to contain the top-margins of child elements.
+ */
+
+.clearfix:before,
+.clearfix:after {
+    content: " "; /* 1 */
+    display: table; /* 2 */
+}
+
+.clearfix:after {
+    clear: both;
+}
+
+/*
+ * For IE 6/7 only
+ * Include this rule to trigger hasLayout and contain floats.
+ */
+
+.clearfix { 
+    *zoom: 1;
+}
+
+/* ==========================================================================
+   Media Queries for Responsive Design.
+   These examples override the primary ('mobile first') styles.
+   ========================================================================== */
+
+@media print,
+       (-o-min-device-pixel-ratio: 5/4),
+       (-webkit-min-device-pixel-ratio: 1.25),
+       (min-resolution: 120dpi) { 
+    /* Style adjustments for high resolution devices */
+}
+
+
+@media only screen and (max-width: 1100px)  {
+
+.Header {
+	min-width:767px;
+}
+
+body {
+	min-width:767px;
+}
+
+.FooterContainer {
+	min-width:767px;}
+
+}
+
+@media only screen and (max-width: 1100px) and (min-width: 941px)  {
+
+	.FooterMiddle {
+		display:none;
+	}
+	
+	.FooterLeftContainer {
+		width:41%;
+		min-width:400px;
+		padding-left:5%;
+		
+	}
+	
+	.FooterRightWrapper {
+		width:41%;
+		min-width:330px;
+		padding-right:5%;
+	}
+}
+
+@media only screen and (max-width: 1070px) and (min-width: 870px) {
+
+	a:hover {
+		background: tan;
+		color:white;
+		font-weight:normal; 
+	}
+	
+	ul#Navigation li a {
+		padding: 30px 10px;
+		display: block;
+		text-decoration: none;
+	}
+
+	ul#Navigation {
+		margin: 0; padding: 0;
+		margin-left:auto;
+		margin-right:auto;
+		margin-top:23px;
+		margin-bottom:23px;
+		float: right;
+		width: 50%;
+		min-width:480px;
+		list-style: none; 
+		font-size: 1.1875em;
+		font-family:"Lucida Sans Unicode", "Lucida Grande", "sans-serif";
+	}
+
+	.LeftTextContainer {
+		width:25%;
+		float:left;
+		padding-left:0px;
+		margin-top:20px;
+		min-width:220px;
+		font-family:"Lucida Sans Unicode", "Lucida Grande", "sans-serif";
+	}
+
+	.SloganContainer {
+		font-size:1.3em;
+		margin-top:25px; 
+		text-align:center;
+	}
+
+	.LogoContainer {
+		float:left;
+		width:13%;
+	}
+
+	#head {
+		max-width: 100%;
+		padding-top:15px;
+	}
+
+	
+}
+
+
+@media only screen and (max-width: 940px) and (min-width: 768px)  {
+
+	.FooterMiddle {
+		display:none;
+	}
+	
+	.FooterLeftContainer {
+		width:51%;
+		min-width:380px;
+		padding-right:2%;
+		
+	}
+	
+	.FooterRightWrapper {
+		width:47%;
+		min-width:225px;
+		max-width:360px;
+	}
+}
+
+@media only screen and (max-width: 920px) and (min-width: 830px) {
+	
+	.MattImage {
+		padding-bottom:90px;
+	}
+}
+
+
+@media only screen and (max-width: 829px) and (min-width: 767px) {
+	
+	.MattImage {
+		padding-bottom:120px;
+	} 
+}
+
+@media only screen and (max-width: 810px) {
+	
+	.Quote {
+		margin-top:-5px;
+	}
+}
+
+@media only screen and (max-width: 800px) and (min-width: 767px) {
+	
+	.GetStarted {
+		padding-top:40px;
+	}
+}
+
+@media screen and (min-width: 869px) {
+	
+	#menu {
+		display: none;
+	}
+		
+	ul#nav {
+		display:none;
+	}
+	
+}
+
+@media screen and (max-width: 869px) {
+
+
+	#menu {
+		width:1.4em;
+		font-size:1.35em;
+		height:40px;
+		display:table-cell;
+		vertical-align:middle;
+		text-align:right;
+	}
+		
+	.Service {
+		width:97%;
+		display:table-cell;
+		padding-left:1.5%;
+		padding-right:1.5%;
+		margin-top:30px;
+	} 
+	
+	.PageContainer {
+		max-width:750px;
+	}
+	
+	.MattQuote {
+		display:none;
+	}
+	
+	#nav.js {
+		display: none;
+	}
+		
+	ul#nav {
+		width:70%;
+		position:absolute;
+		display:block;
+		right:2px;
+		top:71px;
+	}
+	
+	li {
+		width:100%;
+		border-right:none;
+		text-align:center;
+		list-style:none;
+	}
+		
+	li a {
+		display: block;
+		width:80%;  
+		background:black;
+		border:1px solid orange;
+		padding:4% 10%;
+		color:white;
+		font-size:1.35em;
+		text-decoration: none;
+	} 
+	
+	.Header {
+		width:100%;
+		min-width:320px; 
+		float:left;
+		position:absolute;
+		top:0px;
+		left:0px;
+		z-index:1;
+		background-color:orange;
+		border-bottom:black 3px solid;
+		border-top:black solid 3px;
+	}
+	
+	.LogoContainerSmall {
+		float:left;
+		max-width:100%;
+		display:inline-block;
+	}
+	
+	.ContainerInHeader {
+		display:table;
+		width:100%;
+	}
+
+	.NavMobile {
+		display:table-cell;
+		vertical-align:middle;
+		text-align:right;
+	}
+
+	.LogoContainer {
+		display:none;
+	}
+
+	.LeftTextContainer {
+		width:25%;
+		display:inline-block;
+		padding-left:0px;
+		margin-top:0px;
+		min-width:195px;
+		padding-top:20px;
+		padding-bottom:20px;
+		font-family:"Lucida Sans Unicode", "Lucida Grande", "sans-serif";
+	}
+	
+	.SloganContainer {
+		font-size:1.1em;
+		margin-top:0px; 
+		text-align:center;
+	}
+
+	.HeaderSlogan {
+		margin-top:4px;
+		text-align:center;
+		font-size:.7em;
+	}
+	
+	ul#Navigation {
+		display:none;
+	}
+	
+		a:link {
+		text-decoration:none;
+	} 
+
+	a:hover {
+		background: #282828 ;
+		color:white;
+	}
+	
+	.PageContainer {
+		margin-top:130px;
+	}	
+	
+}
+
+@media only screen and (max-width: 767px)  {
+	 
+	a:link, a:visited {
+		text-decoration:none; 
+		color:white;
+	}
+
+
+	.PageContainer {
+		min-width:320px;
+		max-width:600px;
+		margin-top:100px;
+	}  
+
+	.MattQuote2 {
+		display:inherit;
+	}
+
+	.CompanyComparison {
+		width:100%;
+		min-width:320px;
+		margin-top:30px;
+	}
+	
+	.Template {
+		display:none;
+	}
+
+	.omw {
+		width:97%;
+		text-align:left;  
+		margin-right:1.5%;
+		margin-left:1.5%;
+	}
+	
+	.webcompany {
+		display:none;
+	}
+
+
+	.FooterContainer {
+		display:none;
+	}
+
+	.WhyUser {
+		width:97%;
+		min-width:300px;
+		margin-top:10px;
+		float:none;
+		margin-right:1.5%;
+		margin-left:1.5%;
+		display:inline-block;
+	}
+
+	.WhyUs {
+		display:none;
+	}
+
+	.Matt {
+		max-width:97%;
+		display:inline-block;
+		min-width:320px;
+		margin-top:40px;
+		margin-right:1.5%;
+		margin-left:1.5%;
+		margin-bottom:10px;
+	}
+
+	.MattImage {
+		display:none;
+	}
+
+	.MattImage2 {
+		float:left;
+		margin-right:15px;
+		display:inline-block;
+	}
+	
+	.JeffImage2 {
+		float:left;
+		margin-right:15px;
+		display:inline-block;
+	}
+	
+	.JeffImage{
+		display:none;
+	}
+
+
+	.Jeff {
+		max-width:97%;
+		margin-right:1.5%;
+		margin-left:1.5%;
+		min-width:320px;
+		margin-top:60px;
+	}
+
+	.GetStarted2 {
+		max-width:100%;
+		min-width:300px;
+		margin-left:auto;
+		margin-right:auto;
+		display:table;
+		clear:both;
+		margin-top:15px;
+	}
+
+	.GetStarted {
+		display:none;
+	}
+
+	.MobileFooter {
+		width:100%;
+		background-image:url(/img/merp.png);
+		float:left;
+		margin-top:60px;
+		border-top:20px solid tan;
+		display:inline-block;
+	}
+
+	.Copy {
+		width:100%;
+		background-color:black;
+		text-align:center;
+		float:left;
+		color:white;
+		margin-top:15px;
+		font-size:12px;
+		line-height:250%;
+		border-top:2px solid tan;
+	}
+} 
+
+@media only screen and (max-width: 767px) and (min-width: 500px) {
+	
+	body {
+		min-width:500px;
+	}
+	
+	.MobileTable {
+		display:none;
+	}
+	
+	.MidTable {
+		display:inherit;
+	}
+}
+	
+@media only screen and (max-width: 499px)  {
+	
+	body {
+	width:100%;
+	min-width:320px;
+	min-height:100%;
+	}
+	
+	.icons {
+		text-align:center; 
+		margin:0; 
+		display:block;
+		padding:0;
+	}
+	
+	.h3-top {
+		display:block;
+		float:none;
+		text-align:center;
+	}
+}
+	
+@media screen and (max-width: 425px) {
+		
+	#menu {
+		width:1.4em;
+		font-size:1.35em;
+		height:20px;
+		display:table-cell;
+		vertical-align:middle;
+		text-align:right;
+	}
+				
+	.LogoContainerSmall {
+		display:none;
+	}
+}
+
+/* ==========================================================================
+   Print styles.
+   Inlined to avoid required HTTP connection: h5bp.com/r
+   ========================================================================== */
+
+@media print {
+    * {
+        background: transparent !important;
+        color: #000 !important; /* Black prints faster: h5bp.com/s */
+        box-shadow: none !important; 
+        text-shadow: none !important;
+    }
+
+    a,
+    a:visited {
+        text-decoration: underline;
+    }
+
+    a[href]:after {
+        content: " (" attr(href) ")";
+    }
+
+    abbr[title]:after {
+        content: " (" attr(title) ")";
+    }
+
+    /*
+     * Don't show links for images, or javascript/internal links
+     */
+
+    .ir a:after,
+    a[href^="javascript:"]:after,
+    a[href^="#"]:after {
+        content: "";
+    }
+
+    pre,
+    blockquote {
+        border: 1px solid #999;
+        page-break-inside: avoid;
+    }
+
+    thead {
+        display: table-header-group; /* h5bp.com/t */
+    }
+
+    tr,
+    img {
+        page-break-inside: avoid;
+    }
+
+    img {
+        max-width: 100% !important;
+    }
+
+    @page {
+        margin: 0.5cm;
+    }
+
+    p,
+    h2,
+    h3 {
+        orphans: 3;
+        widows: 3;
+    }
+
+    h2,
+    h3 {
+        page-break-after: avoid;
+    }
+}
