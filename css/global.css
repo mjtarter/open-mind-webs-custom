@@ -1,0 +1,157 @@
+/* ==========================================================================
+ 	Style
+   ========================================================================== */
+
+body {
+	font-size:16px;
+	color:black;
+}
+
+ul {
+	list-style:none;
+	margin:0px;
+}
+
+a:link, a:visited {
+	color:inherit;
+	text-decoration:none;
+}
+
+/* ==========================================================================
+ 	Helper Classes
+   ========================================================================== */
+
+.m-0 {
+	margin:0px;
+}
+.p-vert-5 {
+	padding-top:5px;
+	padding-bottom:5px;
+}
+
+.p-vert-35 {
+	padding-top:35px;
+	padding-bottom:35px;
+}
+
+.inline-block {
+	display:inline-block;
+}
+
+
+/* ==========================================================================
+ 	Nav
+   ========================================================================== */
+
+#main-nav {
+	background-color:orange;
+	width:100%;
+	border-top:3px solid black;
+	border-bottom:3px solid black;
+}
+
+#header-slogan {
+	float:right;
+}
+
+/* Mobile nav */
+.slicknav_menu {
+	display:none;
+}
+
+.js #menu {
+	height:120px;
+	float:right;
+}
+
+	.js #menu li {
+		font-size:1.3em;
+		display:inline-block;
+		padding:47px 0px;
+		text-align:center;
+		min-width:110px;
+	}
+
+		.js #menu li a:hover:before {
+			font-family:"Glyphicons Halflings";
+			margin-right:5px;
+			text-align:center;
+			line-height:1;
+			display:inline-block;
+		}
+
+		.js #menu li:nth-child(1) a:hover:before {
+			content:"\e021";
+		}
+
+		.js #menu li:nth-child(2) a:hover:before {
+			content:"\e086";
+		}
+
+		.js #menu li:nth-child(3) a:hover:before {
+			content:"\e135";
+		}
+
+		.js #menu li:nth-child(4) a:hover:before {
+			content:"\e111";
+		}
+
+		.js #menu li:nth-child(5) a:hover:before {
+			content:"\e139";
+		}
+
+		.js #menu a:hover {
+			border-bottom:2px solid black;
+		}
+
+/* ==========================================================================
+ 	Media Queries
+   ========================================================================== */
+
+@media screen and (max-width: 991px) {
+
+	#logo {
+		text-align:center;
+	}
+
+	#header-img {
+		float:left;
+	}
+
+	#header-slogan {
+		float:left;
+		padding-left:10px;
+	}
+
+	.js #menu {
+		text-align:center;
+		height:60px;
+		clear:both;
+		float:none;
+	}
+
+		.js #menu li {
+			padding:5px 0px 10px 0px;
+			min-width:125px;
+		}
+}
+
+@media screen and (max-width: 767px) {
+	/* #menu is the original menu */
+	.js #menu, #main-nav {
+		display:none;
+	}
+	
+	.js .slicknav_menu {
+		display:block;
+		background-color:orange;
+		border-top:3px solid black;
+		border-bottom:3px solid black;
+	}
+
+		.slicknav_menu li a:hover {
+			background-color:black;
+			color:white;
+		}
+}
+
