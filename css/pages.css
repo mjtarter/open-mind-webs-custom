@@ -17,10 +17,6 @@
         width:50%;
     }
 
-    #index-carousel p {
-        font-size:1.4em;
-    }
-
     #index-carousel .fa, #index-carousel .glyphicon {
         color:orange;
     } 
@@ -40,15 +36,32 @@
 
 #item-2 {
     background-repeat:no-repeat; 
-    background: linear-gradient(rgba(0, 0, 0, .4), rgba(0, 0, 0, .4)), url('../img/3.gif'); 
+    background: linear-gradient(rgba(0, 0, 0, .4), rgba(0, 0, 0, .4)), url('../img/gray-bg.gif'); 
     background-size:100% 100%; 
     padding-bottom:110px;
     padding-top:30px;
     color:white;
 }
 
+    #item-1 p, #item-2 p {
+        font-size:1.4em;
+    }
+
     #item-2 a {
         text-decoration:underline;
+    }
+
+#item-3 {
+    background-repeat:no-repeat; 
+    background: linear-gradient(rgba(0, 0, 0, .6), rgba(0, 0, 0, .6)), url('../img/moving-couch.jpg'); 
+    background-size:100% 100%; 
+    color:white;
+}
+
+    #item-3 p {
+        font-size:1.2em; 
+        width:70%; 
+        margin:0 auto;
     }
 
 ul#portfolio-list li {

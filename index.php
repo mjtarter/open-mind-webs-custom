@@ -5,6 +5,7 @@
    <ol class="carousel-indicators">
       <li data-target="#index-carousel" data-slide-to="0" class="active"></li>
       <li data-target="#index-carousel" data-slide-to="1"></li>
+      <li data-target="#index-carousel" data-slide-to="2"></li>
    </ol>
 
    <!-- Wrapper for slides -->
@@ -45,6 +46,19 @@
             <h2 class="text-center">
                <a href="#"><span style="color:white;" class="glyphicon glyphicon-share-alt"></span> View Portfolio</a>
             </h2>
+         </div>
+      </div>
+      <div class="item" id="item-3">
+         <div class="container" id="carousel-container">
+            <div class="vert-middle text-center">
+               <img src="img/mci-logo.png">
+               <hr>
+               <p>
+                  MyCampus Island is a startup that I have been developing in my spare time and has been a hobby and passion of mine for quite awhile. MCI is a revolutionary web-based application for Indiana University students that provides updated student housing listings as well as the “Student Housing Encyclopedia”, which displays in-depth individual pages for EVERY student housing property regardless of whether it is available. <br><br> I am open to bringing in new members to the MCI team (just me as of right now) as well as speaking with potential investors.
+               </p>
+               <button class="button aqua-button"><a href="#"><span style="color:white;" class="glyphicon glyphicon-share-alt"></span> Check It Out!</a></button>
+               <button class="button aqua-button"><a href="#"><span style="color:White;" class="glyphicon glyphicon-share-alt"></span> Contact Me</a></button>
+            </div>
          </div>
       </div>
    </div>
