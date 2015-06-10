@@ -12,10 +12,12 @@
         <meta name="viewport" content="width=device-width, initial-scale=1">
         <link rel="apple-touch-icon" href="apple-touch-icon.png">
 		
+        <link rel="stylesheet" href="//maxcdn.bootstrapcdn.com/font-awesome/4.3.0/css/font-awesome.min.css">
         <link rel="stylesheet" href="css/bootstrap.min.css">
         <link rel="stylesheet" href="css/bootstrap-theme.min.css">
         <link rel="stylesheet" href="css/slicknav.css" />
         <link rel="stylesheet" href="css/global.css" />
+        <link rel="stylesheet" href="css/pages.css" />
         <!--[if lt IE 9]><link rel="stylesheet" type="text/css" href="css/ie8.css" /><![endif]-->
 
         <script src="js/vendor/modernizr-2.8.3-respond-1.4.2.min.js"></script>

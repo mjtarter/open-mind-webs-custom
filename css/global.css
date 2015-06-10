@@ -38,6 +38,15 @@ a:link, a:visited {
 	display:inline-block;
 }
 
+.vert-middle {
+	display:table-cell;
+	vertical-align:middle;
+}
+
+.no-float {
+	float:none;
+}
+
 
 /* ==========================================================================
  	Nav

@@ -1,0 +1,68 @@
+/* ==========================================================================
+    Index.html
+   ========================================================================== */
+
+/* Carousel
+   ========================================================================== */    
+
+#index-carousel {
+    border-bottom:3px solid black;
+}
+
+    #index-carousel h1 {
+        font-size:3.4em;
+    }
+
+    #index-carousel hr {
+        width:50%;
+    }
+
+    #index-carousel p {
+        font-size:1.4em;
+    }
+
+    #index-carousel .fa, #index-carousel .glyphicon {
+        color:orange;
+    } 
+
+#carousel-container {
+    display:table; 
+    height:580px;
+    color:white;
+}
+
+#item-1 {
+    width:100%; 
+    background-repeat:no-repeat; 
+    background: linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)), url('../img/office-photo.jpg'); 
+    background-size:100% 100%;
+}
+
+#item-2 {
+    background-repeat:no-repeat; 
+    background: linear-gradient(rgba(0, 0, 0, .4), rgba(0, 0, 0, .4)), url('../img/3.gif'); 
+    background-size:100% 100%; 
+    padding-bottom:110px;
+    padding-top:30px;
+    color:white;
+}
+
+    #item-2 a {
+        text-decoration:underline;
+    }
+
+ul#portfolio-list li {
+    float:left; 
+    width:33.3333%; 
+    padding:0px;
+}
+
+    ul#portfolio-list li:hover {
+        outline:2px solid white;
+    }
+
+    ul#portfolio-list img {
+        height:220px;  
+        padding:2px; 
+        width:100%;
+    }
