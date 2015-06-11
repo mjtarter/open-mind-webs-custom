@@ -10,6 +10,7 @@ body {
 ul {
 	list-style:none;
 	margin:0px;
+	padding:0px;
 }
 
 a:link, a:visited {
@@ -43,6 +44,11 @@ a:link, a:visited {
 	background-image: linear-gradient(to bottom, rgba(255, 255, 255, 0.3), rgba(255, 255, 255, 0) 50%, rgba(0, 0, 0, 0.12) 51%, rgba(0, 0, 0, 0.04));
 }
 
+.button-large {
+	line-height: 50px;
+	font-size: 22px;
+}
+
 .aqua-button {
     background-color: #00ced1;
 }
@@ -52,6 +58,14 @@ a:link, a:visited {
         color:white;
     }
 
+.orange-button {
+    background-color: orange;
+}
+
+    .orange-button:hover {
+        background-color:tan;
+        color:white;
+    }
 /* ==========================================================================
  	Helper Classes
    ========================================================================== */
@@ -197,5 +211,9 @@ a:link, a:visited {
 			background-color:black;
 			color:white;
 		}
+
+	body {
+        font-size:14px;
+    }
 }
 

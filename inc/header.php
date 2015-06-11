@@ -26,7 +26,7 @@
         <script type="text/javascript" src="http://w.sharethis.com/button/buttons.js"></script>
         <script type="text/javascript">stLight.options({publisher: "9aa9f18f-1bd3-4e9d-a7d6-4529777ac776", doNotHash: true, doNotCopy: false, hashAddressBar: false});</script>
     </head>
-    <body>
+    <body <?php echo "id=" . $bodyId ?>>
     	<!--[if lte IE 7]><script src="js/ie6/warning.js"></script><script>window.onload=function(){e("js/ie6/")}</script><![endif]-->
         <nav id="main-nav">
         	<div class="container">

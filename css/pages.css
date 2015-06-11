@@ -29,15 +29,20 @@
 
 #item-1 {
     width:100%; 
-    background-repeat:no-repeat; 
     background: linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)), url('../img/office-photo.jpg'); 
-    background-size:100% 100%;
+    background-size:auto 100%;
+    background-repeat:no-repeat; 
+    background-position:center center;
+}
+
+.align-middle {
+    display:table-cell;
+    vertical-align:middle;
 }
 
 #item-2 {
-    background-repeat:no-repeat; 
     background: linear-gradient(rgba(0, 0, 0, .4), rgba(0, 0, 0, .4)), url('../img/gray-bg.gif'); 
-    background-size:100% 100%; 
+    background-size:auto 100%; 
     padding-bottom:110px;
     padding-top:30px;
     color:white;
@@ -52,9 +57,9 @@
     }
 
 #item-3 {
-    background-repeat:no-repeat; 
     background: linear-gradient(rgba(0, 0, 0, .6), rgba(0, 0, 0, .6)), url('../img/moving-couch.jpg'); 
     background-size:100% 100%; 
+    background-repeat:no-repeat; 
     color:white;
 }
 
@@ -66,7 +71,6 @@
 
 ul#portfolio-list li {
     float:left; 
-    width:33.3333%; 
     padding:0px;
 }
 
@@ -79,3 +83,161 @@ ul#portfolio-list li {
         padding:2px; 
         width:100%;
     }
+
+/* MCI Contact Modal
+   ========================================================================== */   
+
+#mciModal .modal-content {
+    background-image:url('../img/tan-bg.png');
+}
+
+    #mciModal p {
+        font-size:1.7em;
+    }
+
+.mci-contact-form label {
+    width:110px;
+}
+
+.mci-contact-form textarea {
+    width: 80%;
+    margin-right: auto;
+    margin-left: auto;
+}
+
+/* Main Content
+   ========================================================================== */ 
+
+body#index {
+    background-image: url('../img/tan-texture-bg.jpg');
+}
+
+#intro {
+    padding:50px 0px 50px 0px;
+    clear:both;
+}
+
+#services-container {
+    height:300px; 
+    background-color:orange; 
+    color:white;
+}
+
+h2.services-title {
+    font-size:2.6em; 
+    text-shadow:-2px -2px 0 silver, 2px -2px 0 silver, -2px 2px 0 silver, 2px 2px 0 silver;
+}
+
+#services .glyphicon {
+    font-size:3em; 
+    -ms-transform: rotate(78deg); /* IE 9 */
+    -webkit-transform: rotate(78deg); /* Chrome, Safari, Opera */
+    transform: rotate(78deg);
+}
+
+#services-bar-container {
+    background:url('../img/black-wallpaper.jpg');
+    width:100%;
+    display:table;
+}
+
+ul#services-buttons li {
+    padding-top:7px;
+    padding-bottom:7px;
+    width:14.2857%;
+    display:table-cell;
+    vertical-align:top;
+}
+
+    #services-buttons li p {
+        color:white; 
+        padding-top:5px;
+    }
+
+#process-title {
+    font-size:2.3em; 
+    padding:50px 0px 15px 0px;
+}
+
+ul#process li {
+    height:110px; 
+    float:left; 
+    margin: 0px .30555% 0px .30555%; 
+    width:10.5%; 
+    display:table; 
+    border-radius:50%;
+    border:2px solid tan;
+    box-shadow:10px 10px #303030;
+    margin-bottom:35px;
+}
+
+    ul#process li:nth-child(-n+4) {
+        background-color:#ff8c00; 
+    }
+
+    ul#process li:nth-child(n+5):nth-child(-n+8) {
+        background-color:orange;
+    }
+
+    ul#process li:last-child {
+        background-color:tan; 
+    }
+
+/* Media Queries
+   ========================================================================== */    
+
+@media screen and (max-width: 991px) {
+    
+    #carousel-container {
+        height:480px;
+    }
+
+    #item-2 .container {
+        width:100%;
+    }
+
+    ul#portfolio-list img {
+        height:170px;  
+    }
+}
+
+@media screen and (max-width: 767px) {
+
+    .align-middle {
+        display:block;
+    }
+
+    #item-1 ul li {
+        float:left;
+        width:50%;
+        text-align:center;
+    }
+
+    #item-3 p {
+        font-size:1.2em; 
+        width:90%; 
+        margin:0 auto;
+    }
+
+    #services-bar-container {
+        display:block;
+    }
+
+    ul#services-buttons li {
+        width:33%;
+        float:left;
+        display:inline-block;
+    }
+}
+
+@media screen and (max-width: 475px) {
+    
+    #item-3 {
+        background-size:auto 100%; 
+    }  
+        /* fixes firefox bug with class img-responsive */
+        #item-3 img {
+            width:100%;
+            max-width:461px;
+        } 
+}
