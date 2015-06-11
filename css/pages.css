@@ -183,6 +183,24 @@ ul#process li {
         background-color:tan; 
     }
 
+.testimonial {
+    border:black 3px solid; 
+    box-shadow: 0px 32px 20px -20px black; 
+    border-radius:25px; 
+    background: linear-gradient(rgba(0, 0, 0, .8), rgba(0, 0, 0, .8)); 
+    padding-top:20px; 
+    padding-bottom:20px; 
+    color:white;
+}
+
+    .testimonial .glyphicon {
+        font-size:2em;
+    }
+
+    .testimonial blockquote {
+        padding:5px 10px;
+    }
+
 /* Media Queries
    ========================================================================== */    
 
@@ -221,12 +239,17 @@ ul#process li {
 
     #services-bar-container {
         display:block;
+        background: linear-gradient(rgba(0, 0, 0, .8), rgba(0, 0, 0, .8)); 
     }
 
     ul#services-buttons li {
         width:33%;
         float:left;
         display:inline-block;
+    }
+
+    .testimonial {
+        margin-bottom:20px;
     }
 }
 

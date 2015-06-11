@@ -185,9 +185,9 @@
 </div>
 <!-- End Services Slider -->
 
-<div class="container">
+<div class="container hidden-xs">
    <p class="text-center" id="process-title"><b> How The Process Works </b></p>
-   <ul class="hidden-xs" id="process">
+   <ul id="process">
       <li><p class="text-center vert-middle"> Submit Contact Form</p></li>
       <li><p class="text-center vert-middle">Initial Meeting</p></li>
       <li><p class="text-center vert-middle">Estimate</p></li>
@@ -208,6 +208,42 @@
    </div>
 </div>
 
-<?php include 'inc/footer.php'; ?>
+<!-- Testimonials -->
+<div class="container">
+   <p class="text-center" id="process-title"><b>What My Clients Are Saying</b></p>
+   <div class="col-sm-6 col-md-4">
+      <div class="text-center testimonial">
+         <p><span class="glyphicon glyphicon-comment"></span></p>
+         <blockquote>
+            <p>Working with Ian was better than expected and we had really high expectations. He is an incredibly talented developer but what really makes him stand out is his work ethic and steady approach. Time after time, and without us asking, he added enhancements and improvements that resulted in a better end product for us and our clients.</p>
+            <footer>
+               <span style="color:tan;"><b>Ted Green,</b> Producer &amp; President</span><br><i><span style="color:orange;">Ted Green Films, LLC</span></i>
+            </footer>
+         </blockquote>    
+      </div>  
+   </div>
+   <div class="col-sm-6 col-md-4">
+      <div class="text-center testimonial">
+         <p><span class="glyphicon glyphicon-comment"></span></p>
+         <blockquote>
+            <p>Morbi nec diam rutrum, sagittis lacus ut, fermentum massa. Donec ultrices ultrices finibus. Curabitur euismod nisi ut tincidunt ultrices. Integer tincidunt ligula felis, eget pellentesque turpis luctus nec.</p>
+            <footer>
+               <span style="color:tan;"><b>John Abrams,</b> MD &amp; President</span><br><i><span style="color:orange;">Abrams EyeCare Associates</span></i>
+            </footer>
+         </blockquote>    
+      </div>
+   </div>
+   <div class="col-sm-4 hidden-xs hidden-sm">
+      <div class="text-center testimonial">
+         <p><span class="glyphicon glyphicon-comment"></span></p>
+         <blockquote>
+            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer posuere erat a ante. Morbi nec diam rutrum, sagittis lacus ut, fermentum massa. Morbi nec diam rutrum, sagittis lacus ut, fermentum massa.</p>
+            <footer>
+               <span style="color:tan;"><b>Chris Hupp,</b> VP of E-commerce</span><br><i><span style="color:orange;">Hoffmaster Inc</span></i>
+            </footer>
+         </blockquote>    
+      </div>
+   </div>
+</div><br><br>
 
-        
+<?php include 'inc/footer.php'; ?>  
