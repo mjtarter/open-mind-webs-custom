@@ -244,6 +244,6 @@
          </blockquote>    
       </div>
    </div>
-</div><br><br>
+</div>
 
 <?php include 'inc/footer.php'; ?>  
