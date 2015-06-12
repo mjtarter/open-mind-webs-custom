@@ -5,7 +5,7 @@
           <div class="col-xs-6 col-sm-4 no-float vert-middle">
              <p class="hidden-xs hidden-sm" id="footer-title"><b>Connect</b></p>
              <ul class="col-sm-3 align-middle no-float">
-                <li><p><i class="fa fa-github-square"></i><a href="https://github.com/mjtarter" target="_blank"><span class="hidden-md hidden-lg"><br></span><span class="hide-mobile">Github</span></a></p></li>
+                <li><p><i class="fa fa-github-square"></i><a href="https://github.com/mjtarter" target="_blank"><span class="hidden-md hidden-lg"><br></span><span class="hide-mobile"> Github</span></a></p></li>
                 <li><p><i class="fa fa-linkedin-square"></i> <a href="https://www.linkedin.com/in/mjtarter" target="_blank"><span class="hidden-md hidden-lg"><br></span><span class="hide-mobile">Linked In</span></a></p></li>
                 <li><p><span class="glyphicon glyphicon-user"></span> <span class="hidden-md hidden-lg"><br></span><span class="hide-mobile">About Me</span></p></li>
                 <li><p><span class="glyphicon glyphicon-briefcase"></span> <span class="hidden-md hidden-lg"><br></span><span class="hide-mobile">Portfolio</span></p></li>
@@ -16,7 +16,7 @@
           </div>
           <div class="col-xs-6 col-sm-4 no-float vert-middle">
              <p class="hidden-xs hidden-sm" id="footer-title"><b>Get Started</b></p>
-             <a class="button black-button"><span class="glyphicon glyphicon-hand-right"></span> Hire Me</a>
+             <a class="button black-button">Hire Me</a>
              <p class="p-vert-10"><span class="glyphicon glyphicon-arrow-up"></span> Bring your ideas to life</p>
           </div>
        </div>

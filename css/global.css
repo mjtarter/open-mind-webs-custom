@@ -82,6 +82,7 @@ a:link, a:visited {
 .m-0 {
 	margin:0px;
 }
+
 .p-vert-5 {
 	padding-top:5px;
 	padding-bottom:5px;
@@ -109,7 +110,6 @@ a:link, a:visited {
 .no-float {
 	float:none;
 }
-
 
 /* ==========================================================================
  	Nav
@@ -183,7 +183,6 @@ a:link, a:visited {
 #footer {
 	background:url('../img/orange-cube-design.png'); 
 	border-top:3px solid black;
-	margin-top:100px;
 }
 
 #footer ul li {
@@ -282,5 +281,4 @@ a:link, a:visited {
 	.hide-mobile {
 		display:none;
 	}
-}	
-
+}

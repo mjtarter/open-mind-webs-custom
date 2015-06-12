@@ -1,7 +1,3 @@
-<?php
-   $bodyId = "index";
-?>
-
 <?php include 'inc/header.php'; ?>
 
 <!-- MyCampus Island Contact Form Modal -->
@@ -135,7 +131,7 @@
 </section>
 
 <!-- Services Slider -->
-<div class="text-center hidden-xs" id="services-container">
+<div class="text-center" id="services-container">
    <div class="container" style="display:table; height:300px;">
       <div class="col-md-10 col-md-offset-1 col-lg-8 col-lg-offset-2 vert-middle no-float" id="services">
          <h2 class="services-title m-0">Services</h2>
@@ -149,7 +145,6 @@
    <div class="container">
       <div class="row">
          <ul id="services-buttons">
-            <p class="visible-xs text-center" style="color:white; font-size:2em; text-decoration:underline">Services</p>
             <p class="visible-xs text-center" style="color:white;"><i>Click an icon for more info</i></p>
             <li>
                <img src="img/all-services.png" id="all-services" class="center-block">
@@ -185,65 +180,68 @@
 </div>
 <!-- End Services Slider -->
 
-<div class="container hidden-xs">
-   <p class="text-center" id="process-title"><b> How The Process Works </b></p>
-   <ul id="process">
-      <li><p class="text-center vert-middle"> Submit Contact Form</p></li>
-      <li><p class="text-center vert-middle">Initial Meeting</p></li>
-      <li><p class="text-center vert-middle">Estimate</p></li>
-      <li><p class="text-center vert-middle">Interface Design</p></li>
-      <li><p class="text-center vert-middle">Coding</p></li>
-      <li><p class="text-center vert-middle">Feedback</p></li>
-      <li><p class="text-center vert-middle">Testing</p></li>
-      <li><p class="text-center vert-middle">Launch</p></li>
-      <li><p class="text-center vert-middle">Continued Contact</p></li>
-   </ul>
-   <div class="col-sm-6">
-      <p class="text-center" style="font-size:1.5em;"><b>Planning / Strategy</b></p>
-      <p class="text-center">Whether you are interested in a website, database management system, or other web service, there is no reason to feel overwhelmed at the initial stages. I'll help you to find a starting point and take you through the process of coming up with the look, feel, and content structure that will work best for your particular business. All you need is an idea and I can help you throughout the process of planning to completion.</p>
+<section id="process-section">
+   <div class="container hidden-xs">
+      <p class="text-center" id="process-title"><b> How The Process Works </b></p>
+      <ul id="process">
+         <li><p class="text-center vert-middle"> Submit Contact Form</p></li>
+         <li><p class="text-center vert-middle">Initial Meeting</p></li>
+         <li><p class="text-center vert-middle">Estimate</p></li>
+         <li><p class="text-center vert-middle">Interface Design</p></li>
+         <li><p class="text-center vert-middle">Coding</p></li>
+         <li><p class="text-center vert-middle">Feedback</p></li>
+         <li><p class="text-center vert-middle">Testing</p></li>
+         <li><p class="text-center vert-middle">Launch</p></li>
+         <li><p class="text-center vert-middle">Continued Contact</p></li>
+      </ul>
+      <div class="process-text col-sm-6">
+         <p class="text-center" style="font-size:1.5em;"><b>Planning / Strategy</b></p>
+         <p class="text-center">Whether you are interested in a website, database management system, or other web service, there is no reason to feel overwhelmed at the initial stages. I'll help you to find a starting point and take you through the process of coming up with the look, feel, and content structure that will work best for your particular business. All you need is an idea and I can help you throughout the process of planning to completion.</p>
+      </div>
+      <div class=" process-text col-sm-6">
+         <p class="text-center" style="font-size:1.5em;"><b>Maintenance</b></p>
+         <p class="text-center">Once your desired web service is completed and launched I don't just set you loose on your own. I offer maintenance and content update plans because your business, your customers, your competitors, and the web in general are all constantly adapting and improving so why shouldn’t your website? However, if you’d like to take over full control of your site, I can teach you how to make minor updates and changes on your own as well.</p>
+      </div>
    </div>
-   <div class="col-sm-6">
-      <p class="text-center" style="font-size:1.5em;"><b>Maintenance</b></p>
-      <p class="text-center">Once your desired web service is completed and launched I don't just set you loose on your own. I offer maintenance and content update plans, because your business, your customers, your competitors, and the web in general and are constantly adapting and improving so why shouldn’t your website? However, If you’d like to take over full of your site, I can teach you how to make minor updates and changes on your own as well.</p>
-   </div>
-</div>
 
-<!-- Testimonials -->
-<div class="container">
-   <p class="text-center" id="process-title"><b>What My Clients Are Saying</b></p>
-   <div class="col-sm-6 col-md-4">
-      <div class="text-center testimonial">
-         <p><span class="glyphicon glyphicon-comment"></span></p>
-         <blockquote>
-            <p>Working with Ian was better than expected and we had really high expectations. He is an incredibly talented developer but what really makes him stand out is his work ethic and steady approach. Time after time, and without us asking, he added enhancements and improvements that resulted in a better end product for us and our clients.</p>
-            <footer>
-               <span style="color:tan;"><b>Ted Green,</b> Producer &amp; President</span><br><i><span style="color:orange;">Ted Green Films, LLC</span></i>
-            </footer>
-         </blockquote>    
-      </div>  
-   </div>
-   <div class="col-sm-6 col-md-4">
-      <div class="text-center testimonial">
-         <p><span class="glyphicon glyphicon-comment"></span></p>
-         <blockquote>
-            <p>Morbi nec diam rutrum, sagittis lacus ut, fermentum massa. Donec ultrices ultrices finibus. Curabitur euismod nisi ut tincidunt ultrices. Integer tincidunt ligula felis, eget pellentesque turpis luctus nec.</p>
-            <footer>
-               <span style="color:tan;"><b>John Abrams,</b> MD &amp; President</span><br><i><span style="color:orange;">Abrams EyeCare Associates</span></i>
-            </footer>
-         </blockquote>    
+   <!-- Testimonials -->
+   <div class="container">
+      <p class="text-center" id="process-title"><b>What My Clients Are Saying</b></p>
+      <div class="col-sm-6 col-md-4">
+         <div class="text-center testimonial">
+            <p><span class="glyphicon glyphicon-comment"></span></p>
+            <blockquote>
+               <p>Working with Ian was better than expected and we had really high expectations. He is an incredibly talented developer but what really makes him stand out is his work ethic and steady approach. Time after time, and without us asking, he added enhancements and improvements that resulted in a better end product for us and our clients.</p>
+               <footer>
+                  <span style="color:tan;"><b>Ted Green,</b> Producer &amp; President</span><br><i><span style="color:orange;">Ted Green Films, LLC</span></i>
+               </footer>
+            </blockquote>    
+         </div>  
+      </div>
+      <div class="col-sm-6 col-md-4">
+         <div class="text-center testimonial">
+            <p><span class="glyphicon glyphicon-comment"></span></p>
+            <blockquote>
+               <p>Morbi nec diam rutrum, sagittis lacus ut, fermentum massa. Donec ultrices ultrices finibus. Curabitur euismod nisi ut tincidunt ultrices. Integer tincidunt ligula felis, eget pellentesque turpis luctus nec.</p>
+               <footer>
+                  <span style="color:tan;"><b>John Abrams,</b> MD &amp; President</span><br><i><span style="color:orange;">Abrams EyeCare Associates</span></i>
+               </footer>
+            </blockquote>    
+         </div>
+      </div>
+      <div class="col-sm-4 hidden-xs hidden-sm">
+         <div class="text-center testimonial">
+            <p><span class="glyphicon glyphicon-comment"></span></p>
+            <blockquote>
+               <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer posuere erat a ante. Morbi nec diam rutrum, sagittis lacus ut, fermentum massa. Morbi nec diam rutrum, sagittis lacus ut, fermentum massa.</p>
+               <footer>
+                  <span style="color:tan;"><b>Chris Hupp,</b> VP of E-commerce</span><br><i><span style="color:orange;">Hoffmaster Inc</span></i>
+               </footer>
+            </blockquote>    
+         </div>
       </div>
    </div>
-   <div class="col-sm-4 hidden-xs hidden-sm">
-      <div class="text-center testimonial">
-         <p><span class="glyphicon glyphicon-comment"></span></p>
-         <blockquote>
-            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer posuere erat a ante. Morbi nec diam rutrum, sagittis lacus ut, fermentum massa. Morbi nec diam rutrum, sagittis lacus ut, fermentum massa.</p>
-            <footer>
-               <span style="color:tan;"><b>Chris Hupp,</b> VP of E-commerce</span><br><i><span style="color:orange;">Hoffmaster Inc</span></i>
-            </footer>
-         </blockquote>    
-      </div>
-   </div>
-</div>
+   <button href="#" class="center-block button button-large orange-button" style="display:block; margin-top:60px;"><span class="glyphicon glyphicon-hand-right"></span> Get Started</button>
+</section>
 
 <?php include 'inc/footer.php'; ?>  
