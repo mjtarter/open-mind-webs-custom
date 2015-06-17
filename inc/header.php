@@ -6,7 +6,7 @@
     <head>
         <meta charset="utf-8">
         <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
-		<title>Denver Web Design | Website Development | Open Mind Webs</title>
+		<title><?php echo $title ?></title>
         <meta property="og:description" content="Open Mind Webs - The personal site of front end developer, Matt Tarter. Contact me today to obtain your business goals through the web with a professionally developed website!" />
         <meta property="og:image" content="http://openmindwebs.com/img/work-desk.jpg" />        
         <meta name="viewport" content="width=device-width, initial-scale=1">
@@ -21,10 +21,6 @@
         <!--[if lt IE 9]><link rel="stylesheet" type="text/css" href="css/ie8.css" /><![endif]-->
 
         <script src="js/vendor/modernizr-2.8.3-respond-1.4.2.min.js"></script>
-        <!-- xxx Share This Buttons (Social Media Share) xxx -->
-        <script type="text/javascript">var switchTo5x=true;</script>
-        <script type="text/javascript" src="http://w.sharethis.com/button/buttons.js"></script>
-        <script type="text/javascript">stLight.options({publisher: "9aa9f18f-1bd3-4e9d-a7d6-4529777ac776", doNotHash: true, doNotCopy: false, hashAddressBar: false});</script>
     </head>
     <body>
     	<!--[if lte IE 7]><script src="js/ie6/warning.js"></script><script>window.onload=function(){e("js/ie6/")}</script><![endif]-->

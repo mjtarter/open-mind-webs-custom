@@ -98,6 +98,11 @@ a:link, a:visited {
 	padding-bottom:35px;
 }
 
+.p-hor-10 {
+	padding-left:10px;
+	padding-right:10px;
+}
+
 .inline-block {
 	display:inline-block;
 }

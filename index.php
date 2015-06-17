@@ -1,4 +1,8 @@
-<?php include 'inc/header.php'; ?>
+<?php 
+
+$title = "Denver Web Design | Website Development | Open Mind Webs";
+
+include 'inc/header.php'; ?>
 
 <!-- MyCampus Island Contact Form Modal -->
 <div class="modal fade" id="mciModal">

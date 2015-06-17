@@ -84,3 +84,11 @@ function changeAnalyticsTrans(){
 	document.getElementById("analytics").src="img/analytics-trans.png";
 	document.getElementById("all-services").src="img/all-services.png";
 }
+
+
+
+function showWorkExperience(){
+	document.getElementById("work-experience").style.display = "block";
+	document.getElementById("work-experience-btn").style.display = "none";
+}
+

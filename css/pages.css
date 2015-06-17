@@ -271,3 +271,67 @@ ul#process li {
             max-width:461px;
         } 
 }
+
+/* ==========================================================================
+    about.php
+   ========================================================================== */
+
+.main-content {
+    background-image: url('../img/tan-fade-bg.png');
+    background-size:100% 100%;
+}
+
+.matt {
+    display:table; 
+    margin:30px auto 0px auto;
+}
+
+    .matt img {
+        width:90%;
+        min-width:70px; 
+        border:2px solid black; 
+        max-width:130px;
+    }
+
+#matt-resume-head {
+    max-width:265px;
+}
+
+    #matt-resume-head li:nth-child(1) {
+        font-size:1.3em;
+    }
+
+    #matt-resume-head li:nth-child(2) {
+        font-size:1.1em;
+    }
+
+    #matt-resume-head li:nth-child(n+3):nth-child(-n+6) {
+        float:left;
+        width:50%;
+    }
+
+#resume {
+    display:table-cell;
+    vertical-align:middle;
+}
+
+.skills ul {
+    float:left; 
+    width:50%;
+}
+
+#hobbies li {
+    float:left; 
+    width:33.333%
+}
+
+#work-experience {
+    display:none;
+}
+
+@media screen and (max-width: 767px) {
+
+    #resume {
+        display:block;
+    }
+}
