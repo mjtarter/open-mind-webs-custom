@@ -335,3 +335,21 @@ ul#process li {
         display:block;
     }
 }
+
+/* ==========================================================================
+    Services Pages
+   ========================================================================== */
+
+#services .title {
+    border-bottom:2px solid black;
+}
+
+#services li {
+    padding:3px 10px;
+    font-weight:bold;
+}
+
+    #services li.active {
+        background-color:orange;
+        color:white;
+    }

@@ -83,6 +83,11 @@ a:link, a:visited {
 	margin:0px;
 }
 
+.m-vert-20 {
+	margin-top:20px;
+	margin-bottom:20px;
+}
+
 .p-vert-5 {
 	padding-top:5px;
 	padding-bottom:5px;
@@ -96,6 +101,11 @@ a:link, a:visited {
 .p-vert-35 {
 	padding-top:35px;
 	padding-bottom:35px;
+}
+
+.p-vert-50 {
+	padding-top:50px;
+	padding-bottom:50px;
 }
 
 .p-hor-10 {

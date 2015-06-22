@@ -85,10 +85,21 @@ function changeAnalyticsTrans(){
 	document.getElementById("all-services").src="img/all-services.png";
 }
 
-
+// Hide/Show Work Experience
 
 function showWorkExperience(){
 	document.getElementById("work-experience").style.display = "block";
 	document.getElementById("work-experience-btn").style.display = "none";
 }
 
+// Services Hover Feature
+
+function bgChange(id){
+	document.getElementById(id).style.background = "tan";
+	document.getElementById(id).style.color = "white";
+}
+
+function bgChangeBack(id){
+	document.getElementById(id).style.background = "none";
+	document.getElementById(id).style.color = "black";
+}
