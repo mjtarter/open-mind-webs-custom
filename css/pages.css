@@ -353,3 +353,9 @@ ul#process li {
         background-color:orange;
         color:white;
     }
+
+    ul.analytics li {
+        width:50%;
+        float:left;
+        padding-bottom:5px;
+    }

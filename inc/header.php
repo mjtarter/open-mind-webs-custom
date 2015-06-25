@@ -37,9 +37,9 @@
                     </a>
                     <div class="col-md-8 col-lg-8">
                         <ul id="menu">
-                            <li><a href="#">Home</a></li>
-                            <li><a href="housing-search.html">About</a></li>
-                            <li><a href="dorms.html">Services</a></li>
+                            <li><a href="index.php">Home</a></li>
+                            <li><a href="about.php">About</a></li>
+                            <li><a href="web-development.php">Services</a></li>
                             <li><a href="landlords.html">Contact</a></li>
                             <li><a href="landlords.html">Portfolio</a></li>
                         </ul>
