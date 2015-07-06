@@ -7,17 +7,17 @@ include 'inc/header.php'; ?>
 <section class="main-content">
 	<div class="container p-vert-50">
 		<div class="col-sm-push-8 col-sm-4">
-			<div class="visible-xs text-center">
+			<form name="services-dropdown" class="visible-xs text-center">
 				<p class="title h4">Services:
-				<select id="services" style="width:90%;">
-					<option>Web Development</option>
-					<option>Web Design</option>
-					<option>Database Management</option>
-					<option>Copywriting / SEO</option>
-					<option>E-commerce</option>
-					<option class="active">Analytics</option>
+				<select id="services" style="width:90%;" name="menu" onChange="top.location.href = this.form.menu.options[this.form.menu.selectedIndex].value;return false;">
+					<option>Analytics</option>
+					<option value="web-development.php">Web Development</option>
+					<option value="web-design.php">Web Design</option>
+					<option value="database-management.php">Database Management</option>
+					<option value="seo.php">Copywriting / SEO</option>
+					<option value="e-commerce.php">E-commerce</option>
 				</select></p>
-			</div>
+			</form>
 			<ul class="hidden-xs" id="services">
 				<li class="title h3 m-0">Services</li>
 				<a href="web-development.php"><li id="link-1" onMouseOver='bgChange("link-1")' onMouseOut='bgChangeBack("link-1");'>Web Development</li></a>
@@ -43,7 +43,7 @@ include 'inc/header.php'; ?>
 					<li>&#8226; Hundreds of other metrics</li>
 				</ul>
 			</div>
-			<button style="display:block;" class="button lg-button orange-button center-block m-vert-20">Get Started Now</button>
+			<button onclick="window.location.href='contact.php'" style="display:block;" class="button lg-button orange-button center-block m-vert-20">Get Started Now</button>
 		</div>
 	</div>
 </section>

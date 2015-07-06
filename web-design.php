@@ -10,8 +10,8 @@ include 'inc/header.php'; ?>
 			<form class="visible-xs text-center">
 				<p class="title h4">Services:
 				<select id="services" style="width:90%;" name="menu" onChange="top.location.href = this.form.menu.options[this.form.menu.selectedIndex].value;return false;">
+					<option>Web Design</option>
 					<option value="web-development.php">Web Development</option>
-					<option class="active">Web Design</option>
 					<option value="database-management.php">Database Management</option>
 					<option value="seo.php">Copywriting / SEO</option>
 					<option value="e-commerce.php">E-commerce</option>
@@ -31,7 +31,7 @@ include 'inc/header.php'; ?>
 		<div class="col-sm-pull-4 col-sm-8">
 			<h1 class="m-0 text-center"><img src="img/web-design.png"> Web Design</h1>
 			<p style="padding-top:20px;"><p>Web design involves the look and feel of your site as well as the structure and content placement. The design phase involves selecting color schemes, typography, layouts, and user interaction / experience design. <b>Good website design is vital, because it is often the first impression you make on your customers and can either draw them in and give them the information they want or it can send them somewhere else in a hurry.</b></p>
-			<button style="display:block;" class="button lg-button orange-button center-block m-vert-20">Get Started Now</button>
+			<button onclick="window.location.href='contact.php'" style="display:block;" class="button lg-button orange-button center-block m-vert-20">Get Started Now</button>
 		</div>
 	</div>
 </section>
