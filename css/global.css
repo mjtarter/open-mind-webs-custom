@@ -285,6 +285,11 @@ a:link, a:visited {
 	body {
         font-size:14px;
     }
+
+    .checkbox-inline {
+    	width:46%;
+    	float:left;
+    }
 }
 
 @media screen and (max-width: 550px) {
@@ -296,4 +301,8 @@ a:link, a:visited {
 	.hide-mobile {
 		display:none;
 	}
+
+	.checkbox-inline {
+    	width:96%;
+    }
 }

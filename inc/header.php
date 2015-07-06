@@ -40,7 +40,7 @@
                             <li><a href="index.php">Home</a></li>
                             <li><a href="about.php">About</a></li>
                             <li><a href="web-development.php">Services</a></li>
-                            <li><a href="landlords.html">Contact</a></li>
+                            <li><a href="contact.php">Contact</a></li>
                             <li><a href="landlords.html">Portfolio</a></li>
                         </ul>
                     </div>
