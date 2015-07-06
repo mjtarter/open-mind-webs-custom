@@ -52,7 +52,7 @@ include 'inc/header.php'; ?>
 </div>
 <!-- End Modal -->
 
-<div id="index-carousel" class="carousel slide" data-ride="carousel">
+<div id="index-carousel" class="carousel slide" data-ride="carousel" data-interval="6000">
    <!-- Indicators -->
    <ol class="carousel-indicators">
       <li data-target="#index-carousel" data-slide-to="0" class="active"></li>
@@ -76,7 +76,7 @@ include 'inc/header.php'; ?>
             <ul class="col-sm-3 align-middle no-float">
                <li><p><i class="fa fa-github-square"></i> <a href="https://github.com/mjtarter" target="_blank">Github</a></p></li>
                <li><p><i class="fa fa-linkedin-square"></i> <a href="https://www.linkedin.com/in/mjtarter" target="_blank">Linked In</a></p></li>
-               <li><p><span class="glyphicon glyphicon-user"></span> About Me</p></li>
+               <li><p><span class="glyphicon glyphicon-user"></span> <a href="about.php" target="_blank">About Me</a></p></li>
                <li><p><span class="glyphicon glyphicon-briefcase"></span> Portfolio</p></li>
             </ul>
          </div>
@@ -130,7 +130,7 @@ include 'inc/header.php'; ?>
       <hr>
       <h2>I create awesome stuff on the web and help businesses grow.</h2><br>
       <p style="font-size:1.4em"><samp>Click the button below to learn more about the man behind the code.</samp></p><br>
-      <a class="button button-large orange-button"><span class="glyphicon glyphicon-user"></span> Matt Tarter</a>
+      <a href="about.php" class="button button-large orange-button" style="color:white"><span class="glyphicon glyphicon-user"></span> Matt Tarter</a>
    </div>
 </section>
 
@@ -151,32 +151,46 @@ include 'inc/header.php'; ?>
          <ul id="services-buttons">
             <p class="visible-xs text-center" style="color:white;"><i>Click an icon for more info</i></p>
             <li>
-               <img src="img/all-services.png" id="all-services" class="center-block">
-               <p class="text-center m-0">All Services</p>
+               <a href="web-development.php">
+                  <img src="img/all-services.png" id="all-services" class="center-block">
+                  <p class="text-center m-0">All Services</p>
+               </a>
             </li>
             <li onMouseOver="changeTextWebDesign(); changeBgTan();" onMouseOut="changeTextAllServices(); changeBgOrange(); changeWebDesignTrans();">
-               <img src="img/web-design-trans.png" id="web-design" class="center-block">
-               <p class="text-center m-0">Web Design</p>
+               <a href="web-design.php">
+                  <img src="img/web-design-trans.png" id="web-design" class="center-block">
+                  <p class="text-center m-0">Web Design</p>
+               </a>
             </li>
             <li onMouseOver="changeTextWebDev(); changeBgSilver();" onMouseOut="changeTextAllServices(); changeBgOrange(); changeWebDevTrans();">
-               <img src="img/web-development-trans.png" id="web-dev" class="center-block">
-               <p class="text-center m-0">Web Development</p>
+               <a href="web-development.php">
+                  <img src="img/web-development-trans.png" id="web-dev" class="center-block">
+                  <p class="text-center m-0">Web Development</p>
+               </a>
             </li>
             <li onMouseOver="changeTextDbManagement(); changeBgOrange();" onMouseOut="changeTextAllServices(); changeDbManagementTrans();">
-               <img src="img/database-management-trans.png" id="db-management" class="center-block">
-               <p class="text-center m-0">Database Management</p>
+               <a href="database-management.php">
+                  <img src="img/database-management-trans.png" id="db-management" class="center-block">
+                  <p class="text-center m-0">Database Management</p>
+               </a>
             </li>
             <li onMouseOver="changeTextSeo(); changeBgTan();" onMouseOut="changeTextAllServices(); changeBgOrange(); changeSeoTrans();">
-               <img src="img/seo-trans.png" id="seo" class="center-block">
-               <p class="text-center m-0">Copywriting / SEO</p>
+               <a href="seo.php">
+                  <img src="img/seo-trans.png" id="seo" class="center-block">
+                  <p class="text-center m-0">Copywriting / SEO</p>
+               </a>
             </li>
             <li onMouseOver="changeTextEcommerce(); changeBgSilver();" onMouseOut="changeTextAllServices(); changeBgOrange(); changeEcommerceTrans();">
-               <img src="img/e-commerce-trans.png" id="ecommerce" class="center-block">
-               <p class="text-center m-0">E-commerce Implementation</p>
+               <a href="e-commerce.php">
+                  <img src="img/e-commerce-trans.png" id="ecommerce" class="center-block">
+                  <p class="text-center m-0">E-commerce Implementation</p>
+               </a>
             </li>
             <li onMouseOver="changeTextAnalytics();" onMouseOut="changeTextAllServices(); changeAnalyticsTrans();">
-               <img src="img/analytics-trans.png" id="analytics"class="center-block">
-               <p class="text-center m-0">Analytics Reporting</p>
+               <a href="analytics.php">
+                  <img src="img/analytics-trans.png" id="analytics"class="center-block">
+                  <p class="text-center m-0">Analytics Reporting</p>
+               </a>
             </li>
          </ul>
       </div>
@@ -215,7 +229,7 @@ include 'inc/header.php'; ?>
          <div class="text-center testimonial">
             <p><span class="glyphicon glyphicon-comment"></span></p>
             <blockquote>
-               <p>Working with Ian was better than expected and we had really high expectations. He is an incredibly talented developer but what really makes him stand out is his work ethic and steady approach. Time after time, and without us asking, he added enhancements and improvements that resulted in a better end product for us and our clients.</p>
+               <p>I came to Matt with a start-up company and only a vague plan, and he produced a dynamic, eye-popping site that still draws raves -- and business. And since then he's continued to be immediately responsive to my changing needs. He doesn't say no to a challenge; he finds a way. I can't recommend him highly enough.</p>
                <footer>
                   <span style="color:tan;"><b>Ted Green,</b> Producer &amp; President</span><br><i><span style="color:orange;">Ted Green Films, LLC</span></i>
                </footer>
@@ -226,7 +240,7 @@ include 'inc/header.php'; ?>
          <div class="text-center testimonial">
             <p><span class="glyphicon glyphicon-comment"></span></p>
             <blockquote>
-               <p>Morbi nec diam rutrum, sagittis lacus ut, fermentum massa. Donec ultrices ultrices finibus. Curabitur euismod nisi ut tincidunt ultrices. Integer tincidunt ligula felis, eget pellentesque turpis luctus nec.</p>
+               <p>Matt redesigned our existing website with an easy to follow and modern looking appearance. He exceeded our expectations and still to this day responds immediately to all of our update requests. Matt had the technical expertise, communication skills, and work ethic to provide us with a 5-Star web development experience.</p>
                <footer>
                   <span style="color:tan;"><b>John Abrams,</b> MD &amp; President</span><br><i><span style="color:orange;">Abrams EyeCare Associates</span></i>
                </footer>
@@ -245,7 +259,7 @@ include 'inc/header.php'; ?>
          </div>
       </div>
    </div>
-   <button href="#" class="center-block button button-large orange-button" style="display:block; margin-top:60px;"><span class="glyphicon glyphicon-hand-right"></span> Get Started</button>
+   <button onclick="window.location.href='contact.php'" class="center-block button button-large orange-button" style="display:block; margin-top:60px;"><span class="glyphicon glyphicon-hand-right"></span> Get Started</button>
 </section>
 
 <?php include 'inc/footer.php'; ?>  

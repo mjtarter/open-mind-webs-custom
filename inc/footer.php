@@ -7,16 +7,16 @@
              <ul class="col-sm-3 align-middle no-float">
                 <li><p><i class="fa fa-github-square"></i><a href="https://github.com/mjtarter" target="_blank"><span class="hidden-md hidden-lg"><br></span><span class="hide-mobile"> Github</span></a></p></li>
                 <li><p><i class="fa fa-linkedin-square"></i> <a href="https://www.linkedin.com/in/mjtarter" target="_blank"><span class="hidden-md hidden-lg"><br></span><span class="hide-mobile">Linked In</span></a></p></li>
-                <li><p><span class="glyphicon glyphicon-user"></span> <span class="hidden-md hidden-lg"><br></span><span class="hide-mobile">About Me</span></p></li>
+                <li><p><span class="glyphicon glyphicon-user"></span><a href="about.php"> <span class="hidden-md hidden-lg"><br></span><span class="hide-mobile">About Me</span></p></a></li>
                 <li><p><span class="glyphicon glyphicon-briefcase"></span> <span class="hidden-md hidden-lg"><br></span><span class="hide-mobile">Portfolio</span></p></li>
              </ul>
           </div>
           <div class="hidden-xs col-sm-4 no-float vert-middle">
-            <p>I’m interested in meeting other developers in the Denver area and providing kickass web services to amazing clients that want to grow their businesses. If either of these apply to you, <a href="#" style="text-decoration:underline;">contact me</a> right away!</p>
+            <p>I’m interested in meeting other developers in the Denver area and providing kickass web services to amazing clients that want to grow their businesses. If either of these apply to you, <a href="contact.php" style="text-decoration:underline;">contact me</a> right away!</p>
           </div>
           <div class="col-xs-6 col-sm-4 no-float vert-middle">
              <p class="hidden-xs hidden-sm" id="footer-title"><b>Get Started</b></p>
-             <a class="button black-button">Hire Me</a>
+             <a href="contact.php" class="button black-button" style="color:white;">Hire Me</a>
              <p class="p-vert-10"><span class="glyphicon glyphicon-arrow-up"></span> Bring your ideas to life</p>
           </div>
        </div>
