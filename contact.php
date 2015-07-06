@@ -4,6 +4,46 @@ $title = "Contact Matt Tarter | Denver Website Development";
 
 include 'inc/header.php'; ?>
 
+<!-- Contact Form Modal -->
+<div class="modal fade" id="contact-modal">
+   <div class="modal-dialog">
+      <div class="modal-content main-content text-center">
+         <div class="modal-header">
+            <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+            <p class="h2 m-0"><i><b>Contact</b></i></p>
+         </div>
+         <div class="modal-body">
+            <form name="contactForm" method="post" class="form-horizontal" action="message-confirmation.php">
+               <div class="form-group">
+                  <label for="first-name">First Name *</label>
+                  <input type="text" id="first-name" name="first_name">
+               </div>
+               <div class="form-group">
+                  <label for="last-name">Last Name *</label>
+                  <input type="text" id="last-name" name="last_name">
+                 </div>
+               <div class="form-group">
+                  <label for="email">Email *</label></td>
+                  <input type="text" id="email" name="email">
+               </div>
+               <div class="form-group">
+                  <label for="phone">Phone</label></td>
+                  <input type="text" id="phone" name="phone">
+               </div>
+               <div class="form-group">
+                  <label for="comments" style="width:200px" class="text-center">Questions / Comments *</label>
+                  <textarea class="form-control" id="comments" name="comments" rows="4"></textarea>
+               </div>
+               <div class="form-group">
+                  <input type="submit" class="button orange-button" value="Submit">
+               </div>
+            </form>    
+         </div>
+      </div>          
+   </div>
+</div>
+<!-- End Modal -->
+
 <section class="main-content p-vert-50">
 	<div class="container">
 		<div class="col-sm-9">
@@ -74,12 +114,12 @@ include 'inc/header.php'; ?>
 		</div>
 		<div class="col-sm-3 text-center">
 			<p class="h2 hidden-xs">Contact</p>
-			<p>Have a question or need to contact me for purposed other than web services?</p>
-			<button class="button orange-button center-block m-vert-20" style="display:block;">Click Here</button>
+			<p>Have a question or need to contact me for purposes other than web services?</p>
+			<button href="#contact-modal" data-toggle="modal" class="button orange-button center-block m-vert-20" style="display:block;">Click Here</button>
 			 <ul class="hidden-xs">
                <li><p><i class="fa fa-github-square"></i> <a href="https://github.com/mjtarter" target="_blank">Github</a></p></li>
                <li><p><i class="fa fa-linkedin-square"></i> <a href="https://www.linkedin.com/in/mjtarter" target="_blank">Linked In</a></p></li>
-               <li><p><span class="glyphicon glyphicon-user"></span> About Me</p></li>
+               <li><p><span class="glyphicon glyphicon-user"></span><a href="about.php"> About Me</a></p></li>
                <li><p><span class="glyphicon glyphicon-briefcase"></span> Portfolio</p></li>
             </ul>
 		</div>

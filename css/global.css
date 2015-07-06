@@ -75,6 +75,21 @@ a:link, a:visited {
         background-color:tan;
         color:white;
     }
+
+.modal label {
+    width:110px;
+}
+
+.modal textarea {
+    width: 80%;
+    margin-right: auto;
+    margin-left: auto;
+}
+
+.main-content {
+    background-image: url('../img/tan-fade-bg.png');
+    background-size:100% 100%;
+}
 /* ==========================================================================
  	Helper Classes
    ========================================================================== */

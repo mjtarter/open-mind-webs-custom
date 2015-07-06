@@ -94,16 +94,6 @@ ul#portfolio-list li {
         font-size:1.7em;
     }
 
-.mci-contact-form label {
-    width:110px;
-}
-
-.mci-contact-form textarea {
-    width: 80%;
-    margin-right: auto;
-    margin-left: auto;
-}
-
 /* Main Content
    ========================================================================== */ 
 
@@ -276,11 +266,6 @@ ul#process li {
     about.php
    ========================================================================== */
 
-.main-content {
-    background-image: url('../img/tan-fade-bg.png');
-    background-size:100% 100%;
-}
-
 .matt {
     display:table; 
     margin:30px auto 0px auto;
@@ -359,3 +344,11 @@ ul#process li {
         float:left;
         padding-bottom:5px;
     }
+
+/* ==========================================================================
+    Contact Page
+   ========================================================================== */
+
+#about-modal {
+
+}

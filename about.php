@@ -99,7 +99,7 @@ include 'inc/header.php'; ?>
 				<ul id="hobbies">
 					<li><i class="fa fa-money"></i> Finance</li>
 					<li><i class="fa fa-university"></i> Investing</li>
-					<li><i class="fa fa-bicycle"></i> Fitness Training </li>
+					<li><i class="fa fa-bicycle"></i> Fitness</li>
 					<li><i class="fa fa-briefcase"></i> Business</li>
 					<li><i class="fa fa-glass"></i> Social </li>
 					<li><i class="fa fa-sun-o"></i> Pool </li>
