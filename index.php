@@ -77,7 +77,7 @@ include 'inc/header.php'; ?>
                <li><p><i class="fa fa-github-square"></i> <a href="https://github.com/mjtarter" target="_blank">Github</a></p></li>
                <li><p><i class="fa fa-linkedin-square"></i> <a href="https://www.linkedin.com/in/mjtarter" target="_blank">Linked In</a></p></li>
                <li><p><span class="glyphicon glyphicon-user"></span> <a href="about.php" target="_blank">About Me</a></p></li>
-               <li><p><span class="glyphicon glyphicon-briefcase"></span> Portfolio</p></li>
+               <li><p><span class="glyphicon glyphicon-briefcase"></span> <a href="portfolio.php" target="_blank">Portfolio</a></p></li>
             </ul>
          </div>
       </div>
@@ -94,7 +94,7 @@ include 'inc/header.php'; ?>
          </div>
          <div class="carousel-caption">
             <h2 class="text-center">
-               <a href="#"><span style="color:white;" class="glyphicon glyphicon-share-alt"></span> View Portfolio</a>
+               <a href="portfolio.php"><span style="color:white;" class="glyphicon glyphicon-share-alt"></span> View Portfolio</a>
             </h2>
          </div>
       </div>

@@ -120,7 +120,7 @@ include 'inc/header.php'; ?>
                <li><p><i class="fa fa-github-square"></i> <a href="https://github.com/mjtarter" target="_blank">Github</a></p></li>
                <li><p><i class="fa fa-linkedin-square"></i> <a href="https://www.linkedin.com/in/mjtarter" target="_blank">Linked In</a></p></li>
                <li><p><span class="glyphicon glyphicon-user"></span><a href="about.php"> About Me</a></p></li>
-               <li><p><span class="glyphicon glyphicon-briefcase"></span> Portfolio</p></li>
+               <li><p><span class="glyphicon glyphicon-briefcase"></span> <a href="portfolio.php">Portfolio</a></p></li>
             </ul>
 		</div>
 	</div>

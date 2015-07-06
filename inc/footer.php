@@ -5,10 +5,10 @@
           <div class="col-xs-6 col-sm-4 no-float vert-middle">
              <p class="hidden-xs hidden-sm" id="footer-title"><b>Connect</b></p>
              <ul class="col-sm-3 align-middle no-float">
-                <li><p><i class="fa fa-github-square"></i><a href="https://github.com/mjtarter" target="_blank"><span class="hidden-md hidden-lg"><br></span><span class="hide-mobile"> Github</span></a></p></li>
-                <li><p><i class="fa fa-linkedin-square"></i> <a href="https://www.linkedin.com/in/mjtarter" target="_blank"><span class="hidden-md hidden-lg"><br></span><span class="hide-mobile">Linked In</span></a></p></li>
-                <li><p><span class="glyphicon glyphicon-user"></span><a href="about.php"> <span class="hidden-md hidden-lg"><br></span><span class="hide-mobile">About Me</span></p></a></li>
-                <li><p><span class="glyphicon glyphicon-briefcase"></span> <span class="hidden-md hidden-lg"><br></span><span class="hide-mobile">Portfolio</span></p></li>
+                <li><a href="https://github.com/mjtarter" target="_blank"><p><i class="fa fa-github-square"></i><span class="hidden-md hidden-lg"><br></span><span class="hide-mobile"> Github</span></p></a></li>
+                <li><a href="https://www.linkedin.com/in/mjtarter" target="_blank"><p><i class="fa fa-linkedin-square"></i> <span class="hidden-md hidden-lg"><br></span><span class="hide-mobile">Linked In</span></p></a></li>
+                <li><a href="about.php"><p><span class="glyphicon glyphicon-user"></span> <span class="hidden-md hidden-lg"><br></span><span class="hide-mobile">About Me</span></p></a></li>
+                <li><a href="portfolio.php"><p><span class="glyphicon glyphicon-briefcase"></span> <span class="hidden-md hidden-lg"><br></span><span class="hide-mobile">Portfolio</span></p></a></li>
              </ul>
           </div>
           <div class="hidden-xs col-sm-4 no-float vert-middle">
