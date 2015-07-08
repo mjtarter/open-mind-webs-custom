@@ -4,7 +4,7 @@ $title = "Web Design | Matt Tarter | Open Mind Webs";
 
 include 'inc/header.php'; ?>
 
-<section class="main-content">
+<section class="main-content services-template">
 	<div class="container p-vert-50">
 		<div class="col-sm-push-8 col-sm-4">
 			<form class="visible-xs text-center">

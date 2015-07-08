@@ -325,6 +325,11 @@ ul#process li {
     Services Pages
    ========================================================================== */
 
+.services-template {
+    /* Make shorter pages take up whole viewport*/
+    min-height: calc(100vh - 400px);
+}
+
 #services .title {
     border-bottom:2px solid black;
 }
