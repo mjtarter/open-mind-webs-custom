@@ -90,6 +90,14 @@ a:link, a:visited {
     background-image: url('../img/tan-fade-bg.png');
     background-size:100% 100%;
 }
+
+.jumbotron {
+	margin-bottom:0px;
+}
+
+	.jumbotron .h1 {
+		font-size:36px;
+	}
 /* ==========================================================================
  	Helper Classes
    ========================================================================== */

@@ -346,9 +346,42 @@ ul#process li {
     }
 
 /* ==========================================================================
-    Contact Page
+    Portfolio Page
    ========================================================================== */
+.bg {
+    background-color:tan;
+}
 
-#about-modal {
+#portfolio-jumbo {
+    background-image:url('../img/work-desk.jpg');
+    background-repeat:no-repeat;
+    background-size:100% 100%;
+    max-width:1800px;
+    margin:0 auto;
+    border-bottom:3px solid black;
+}
 
+.tan-bg {
+    background:linear-gradient(rgba(210, 180, 140, 0.3), rgba(210, 180, 140, 0.3)), url('../img/tan-bg.png'); 
+    padding:50px 0px;
+    border-bottom:7px tan solid;
+}
+
+.orange-bg {
+    background: linear-gradient(rgba(255, 153, 0, 0.3), rgba(255, 153, 0, 0.3)), url('../img/tan-bg.png'); 
+    padding:50px 0px;
+}
+
+    .tan-bg a, .orange-bg a {
+        text-decoration:underline; 
+        color:#5C5C5C;
+    }
+
+    .tan-bg img, .orange-bg img {
+        padding-top:15px;
+        max-height:335px;
+    }
+
+.portfolio-titles {
+    text-shadow: 2px 2px 0px tan, 3px 3px 0px #707070; 
 }
