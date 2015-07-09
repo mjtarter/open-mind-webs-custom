@@ -43,9 +43,9 @@ include 'inc/header.php'; ?>
 					<p>One of the top ophthalmology practices in Indiana, Abrams Eyecare has 3 offices located in central Indiana. They had an outdated website that had not been changed in years, so I redesigned and developed... <a href="abrams-eyecare.php">&raquo;More</a></p>
 				</div>
 				<div class="col-sm-6">
-					<a href="#"><img src="img/ted-green-films-website.png" class="img-responsive center-block"></a>
-					<p class="h3 text-center"><a href="#">Ted Green Films</a></p>
-					<p>An Indianapolis based film producer, Ted Green Films has been awarded 8 Regional Emmys for their documentaries. The website I created provides online marketing for their documentaries, recent news, previews,... <a href="#">&raquo;More</a></p>
+					<a href="ted-green-films.php"><img src="img/ted-green-films-website.png" class="img-responsive center-block"></a>
+					<p class="h3 text-center"><a href="ted-green-films.php">Ted Green Films</a></p>
+					<p>An Indianapolis based film producer, Ted Green Films has been awarded 8 Regional Emmys for their documentaries. The website I created provides online marketing for their documentaries, recent news, previews,... <a href="ted-green-films.php">&raquo;More</a></p>
 				</div>
 			</div>
 			<div class="row">
