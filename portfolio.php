@@ -50,14 +50,14 @@ include 'inc/header.php'; ?>
 			</div>
 			<div class="row">
 				<div class="col-sm-6">
-					<a href="#"><img src="img/rb-website.png" class="img-responsive center-block"></a>
-					<p class="h3 text-center"><a href="#">R&amp;B Architects</a></p>
-					<p>Located in Indianapolis, IN, R&amp;B Architects had been in existence for quite awhile but still was in need of a website. I designed and developed their brand new site... <a href="#">&raquo;More</a></p>
+					<a href="rb-architects.php"><img src="img/rb-website.png" class="img-responsive center-block"></a>
+					<p class="h3 text-center"><a href="rb-architects.php">R&amp;B Architects</a></p>
+					<p>Located in Indianapolis, IN, R&amp;B Architects had been in existence for quite awhile but still was in need of a website. I designed and developed their brand new site... <a href="rb-architects.php">&raquo;More</a></p>
 				</div>
 				<div class="col-sm-6">
-					<a href="#"><img src="img/tarter-bros-website.png" class="img-responsive center-block"></a>
-					<p class="h3 text-center"><a href="#">Tarter Bros Staining</a></p>
-					<p>A few years ago when my brother and I owned and operated a deck staining business, I developed this simple site to get the word out and help potential customers to contact us... <a href="#">&raquo;More</a></p>
+					<a href="tarter-bros.php"><img src="img/tarter-bros-website.png" class="img-responsive center-block"></a>
+					<p class="h3 text-center"><a href="tarter-bros.php">Tarter Bros Staining</a></p>
+					<p>A few years ago when my brother and I owned and operated a deck staining business, I developed this simple site to get the word out and help potential customers to contact us... <a href="tarter-bros.php">&raquo;More</a></p>
 				</div>
 			</div>
 		</div>
@@ -67,14 +67,14 @@ include 'inc/header.php'; ?>
 			<div class="row">
 				<p class="text-center h1 portfolio-titles" id="dbms">Database Management</p>
 				<div class="col-sm-6">
-					<a href="#"><img src="img/the-only-dbms.png" class="img-responsive center-block"></a>
-					<p class="h3 text-center"><a href="#">The Only</a></p>
-					<p>The Only is a sports exhibition hall that consists of thousands of historical sports pieces and memorabilia. For this project the client needed an organized database to display all of their inventory... <a href="#">&raquo;More</a></p>
+					<a href="the-only.php"><img src="img/the-only-dbms.png" class="img-responsive center-block"></a>
+					<p class="h3 text-center"><a href="the-only.php">The Only</a></p>
+					<p>The Only is a sports exhibition hall that consists of thousands of historical sports pieces and memorabilia. For this project the client needed an organized database to display all of their inventory... <a href="the-only.php">&raquo;More</a></p>
 				</div>
 				<div class="col-sm-6">
-					<a href="#"><img src="img/hoffmaster-dbms.png" class="img-responsive center-block"></a>
-					<p class="h3 text-center"><a href="#">Hoffmaster</a></p>
-					<p>Hoffmaster is a market leading North American company specializing in the fields of Foodservice, Consumer, and Contract Manufacturing. They came to us with the need for a DBMS to assist them with organizing... <a href="#">&raquo;More</a></p>
+					<a href="hoffmaster.php"><img src="img/hoffmaster-dbms.png" class="img-responsive center-block"></a>
+					<p class="h3 text-center"><a href="hoffmaster.php">Hoffmaster</a></p>
+					<p>Hoffmaster is a market leading North American company specializing in the fields of Foodservice, Consumer, and Contract Manufacturing. They came to us with the need for a DBMS to assist them with organizing... <a href="hoffmaster.php">&raquo;More</a></p>
 				</div>
 			</div>
 			<div class="row">

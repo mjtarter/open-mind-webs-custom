@@ -7,7 +7,10 @@ include 'inc/header.php'; ?>
 		<div class="row">
 			<div class="col-sm-6 no-float" style="display:table-cell;">
 				<p class="h1"><?php echo $name ?></p>
-				<p><a href=<?php echo '"' . $link . '"' ?> target="_blank"><?php echo $url ?></a></p>
+		<!-- If url exists include link, if not do nothing !-->
+				<?php if ($url !== null) {
+					echo '<p><a href="' . $link . '" target="_blank">' . $url . '</a></p>';
+				}?>
 				<div class="clearfix">
 					<ul id="services-provided">
 						<?php
