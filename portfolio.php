@@ -26,9 +26,9 @@ include 'inc/header.php'; ?>
 					<p>MyCampus Island (my startup) is a web based student housing app for college students in the Bloomington, Indiana area. This is a large site that takes advantage of an extensive back-end database to provide... <a href="mycampusisland.php">&raquo;More</a></p>
 				</div>
 				<div class="col-sm-6">
-					<a href="#"><img src="img/dropping-dimes-responsive.png" class="img-responsive center-block"></a>
-					<p class="h3 text-center"><a href="#">Dropping Dimes Foundation</a></p>
-					<p>Dropping Dimes is a charitable organization with an aim to assist former ABA basketball players living in economically or medically disadvantaged situations. They came to me when their organization was... <a href="#">&raquo;More</a></p>
+					<a href="dropping-dimes.php"><img src="img/dropping-dimes-responsive.png" class="img-responsive center-block"></a>
+					<p class="h3 text-center"><a href="dropping-dimes.php">Dropping Dimes Foundation</a></p>
+					<p>Dropping Dimes is a charitable organization with an aim to assist former ABA basketball players living in economically or medically disadvantaged situations. They came to me when their organization was... <a href="dropping-dimes.php">&raquo;More</a></p>
 				</div>
 			</div>
 		</div>
@@ -38,9 +38,9 @@ include 'inc/header.php'; ?>
 			<div class="row">
 				<p class="text-center h1 portfolio-titles">More Websites</p>
 				<div class="col-sm-6">
-					<a href="#"><img src="img/abrams-eyecare-website.png" class="img-responsive center-block"></a>
-					<p class="h3 text-center"><a href="#">Abrams Eyecare</a></p>
-					<p>One of the top ophthalmology practices in Indiana, Abrams Eyecare has 3 offices located in central Indiana. They had an outdated website that had not been changed in years, so I redesigned and developed... <a href="#">&raquo;More</a></p>
+					<a href="abrams-eyecare.php"><img src="img/abrams-eyecare-website.png" class="img-responsive center-block"></a>
+					<p class="h3 text-center"><a href="abrams-eyecare.php">Abrams Eyecare</a></p>
+					<p>One of the top ophthalmology practices in Indiana, Abrams Eyecare has 3 offices located in central Indiana. They had an outdated website that had not been changed in years, so I redesigned and developed... <a href="abrams-eyecare.php">&raquo;More</a></p>
 				</div>
 				<div class="col-sm-6">
 					<a href="#"><img src="img/ted-green-films-website.png" class="img-responsive center-block"></a>
