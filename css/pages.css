@@ -350,6 +350,11 @@ ul#process li {
         padding-bottom:5px;
     }
 
+.copywriting img {
+    box-shadow:7px 7px 17px; 
+    border:1px solid gray
+}
+
 /* ==========================================================================
     Portfolio Page
    ========================================================================== */
@@ -383,7 +388,7 @@ ul#process li {
     }
 
     .tan-bg img, .orange-bg img {
-        padding-top:15px;
+        margin-top:15px;
         max-height:335px;
     }
 

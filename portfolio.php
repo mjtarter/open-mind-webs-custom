@@ -79,28 +79,28 @@ include 'inc/header.php'; ?>
 			</div>
 			<div class="row">
 				<div class="col-sm-6">
-					<a href="#"><img src="img/collection-excel.png" class="img-responsive center-block"></a>
-					<p class="h3 text-center"><a href="#">Client Personal Collection</a></p>
-					<p>This client had an ENORMOUS collection of sports memorabilia and needed a cost efficient way to organize it to know everything that he had as well as to have paperwork for insurance purposes... <a href="#">&raquo;More</a></p>
+					<a href="personal-collection.php"><img src="img/collection-excel.png" class="img-responsive center-block"></a>
+					<p class="h3 text-center"><a href="personal-collection.php">Client Personal Collection</a></p>
+					<p>This client had an ENORMOUS collection of sports memorabilia and needed a cost efficient way to organize it to know everything that he had as well as to have paperwork for insurance purposes... <a href="personal-collection.php">&raquo;More</a></p>
 				</div>
 			</div>
 		</div>
 	</section>
 	<section class="orange-bg">
 		<div class="container">
-			<div class="row">
+			<div class="row copywriting">
 				<p class="text-center h1 portfolio-titles" id="copywriting">Copywriting</p>
 				<div class="col-sm-6">
-					<a href="#"><img src="img/target-seo.png" class="img-responsive center-block"></a>
+					<a href="lodge-design.php"><img src="img/target-seo.png" class="img-responsive center-block"></a>
 				</div>
 				<div class="hidden-xs col-sm-6">
-					<a href="#"><img src="img/walmart-seo.png" class="img-responsive center-block"></a>
+					<a href="lodge-design.php"><img src="img/walmart-seo.png" class="img-responsive center-block"></a>
 				</div>
 			</div>
 			<div class="row">
 				<div class="col-md-8 col-md-offset-2">
-					<p class="h3 text-center"><a href="#">Lodge Design</a></p>
-					<p>Since the spring of 2014 I have been contracted by <a href="http://www.lodgedesign.com">Lodge Design</a> to assist with uploading products to target.com, walmart.com, and staples.com. I have worked on the back end of each of these enormous e-commerce systems to upload thousands of new products. I also work on the front end writing product descriptions for SEO and developing consumer facing content.</a>... <a href="#">&raquo;More</a></p>
+					<p class="h3 text-center"><a href="lodge-design.php">Lodge Design</a></p>
+					<p>Since the spring of 2014 I have been contracted by <a href="http://www.lodgedesign.com" target="_blank">Lodge Design</a> to assist with uploading products to target.com, walmart.com, and staples.com. I have worked on the back end of each of these enormous e-commerce systems to upload thousands of new products. I also work on the front end writing product descriptions for SEO and developing consumer facing content</a>... <a href="lodge-design.php">&raquo;More</a></p>
 				</div>
 			</div>
 		</div>
