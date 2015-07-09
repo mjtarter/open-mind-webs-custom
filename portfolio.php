@@ -21,9 +21,9 @@ include 'inc/header.php'; ?>
 			<div class="row">
 				<p class="text-center h1 portfolio-titles" id="websites">Responsive Websites</p>
 				<div class="col-sm-6">
-					<a href="#"><img src="img/mci-responsive.png" class="img-responsive center-block"></a>
-					<p class="h3 text-center"><a href="#">MyCampus Island</a></p>
-					<p>MyCampus Island (my startup) is a web based student housing app for college students in the Bloomington, Indiana area. This is a large site that takes advantage of an extensive back-end database to provide... <a href="#">&raquo;More</a></p>
+					<a href="mycampusisland.php"><img src="img/mci-responsive.png" class="img-responsive center-block"></a>
+					<p class="h3 text-center"><a href="mycampusisland.php">MyCampus Island</a></p>
+					<p>MyCampus Island (my startup) is a web based student housing app for college students in the Bloomington, Indiana area. This is a large site that takes advantage of an extensive back-end database to provide... <a href="mycampusisland.php">&raquo;More</a></p>
 				</div>
 				<div class="col-sm-6">
 					<a href="#"><img src="img/dropping-dimes-responsive.png" class="img-responsive center-block"></a>
@@ -91,15 +91,15 @@ include 'inc/header.php'; ?>
 			<div class="row">
 				<p class="text-center h1 portfolio-titles" id="copywriting">Copywriting</p>
 				<div class="col-sm-6">
-					<a href="#"><img src="img/a.png" class="img-responsive center-block"></a>
+					<a href="#"><img src="img/target-seo.png" class="img-responsive center-block"></a>
 				</div>
 				<div class="hidden-xs col-sm-6">
-					<a href="#"><img src="img/b.png" class="img-responsive center-block"></a>
+					<a href="#"><img src="img/walmart-seo.png" class="img-responsive center-block"></a>
 				</div>
 			</div>
 			<div class="row">
 				<div class="col-md-8 col-md-offset-2">
-					<p class="h3 text-center">Lodge Design</p>
+					<p class="h3 text-center"><a href="#">Lodge Design</a></p>
 					<p>Since the spring of 2014 I have been contracted by <a href="http://www.lodgedesign.com">Lodge Design</a> to assist with uploading products to target.com, walmart.com, and staples.com. I have worked on the back end of each of these enormous e-commerce systems to upload thousands of new products. I also work on the front end writing product descriptions for SEO and developing consumer facing content.</a>... <a href="#">&raquo;More</a></p>
 				</div>
 			</div>

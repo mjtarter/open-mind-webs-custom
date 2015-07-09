@@ -390,3 +390,50 @@ ul#process li {
 .portfolio-titles {
     text-shadow: 2px 2px 0px tan, 3px 3px 0px #707070; 
 }
+
+/* ==========================================================================
+    Individual Portfolio Pages
+   ========================================================================== */
+
+ul#services-provided li {
+    width:50%;
+    float:left;
+}
+
+.folio-pages a {
+        text-decoration:underline; 
+        color:#5C5C5C;
+    }
+
+#folio-img-container {
+    display:table-cell;
+    vertical-align:middle;
+}
+
+#folio-main-img {
+    box-shadow: 0 22px 12px -12px black;
+}
+
+#info-box {
+    padding:15px; 
+    box-shadow: 0 26px 12px -12px #a89070; 
+    background-color:#dbc3a3;
+    border:1px solid #a89070;
+}
+
+
+@media screen and (max-width: 991px) {
+
+    #folio-img-container {
+        display:block;
+        margin:15px auto 0px auto;
+        max-width:580px;
+    }
+}
+
+@media screen and (max-width: 550px) {
+
+    ul#services-provided li {
+        width:100%;
+    }
+}

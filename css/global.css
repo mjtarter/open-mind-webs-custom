@@ -131,6 +131,10 @@ a:link, a:visited {
 	padding-bottom:50px;
 }
 
+.p-top-15 {
+	padding-top:15px;
+}
+
 .p-hor-10 {
 	padding-left:10px;
 	padding-right:10px;
