@@ -91,6 +91,12 @@ a:link, a:visited {
     background-size:100% 100%;
 }
 
+.carousel {
+	/*Fixes flickering text on entire page during slide transitions */
+	position:relative; 
+	z-index:1000
+}
+
 .jumbotron {
 	margin-bottom:0px;
 }
