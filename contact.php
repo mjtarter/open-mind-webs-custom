@@ -13,7 +13,7 @@ include 'inc/header.php'; ?>
             <p class="h2 m-0"><i><b>Contact</b></i></p>
          </div>
          <div class="modal-body">
-            <form name="contactForm" method="post" class="form-horizontal" action="message-confirmation.php">
+            <form name="contactForm" method="post" class="form-horizontal" action="contact-confirmation.php">
                <div class="form-group">
                   <label for="first-name">First Name *</label>
                   <input type="text" id="first-name" name="first_name">
@@ -21,7 +21,7 @@ include 'inc/header.php'; ?>
                <div class="form-group">
                   <label for="last-name">Last Name *</label>
                   <input type="text" id="last-name" name="last_name">
-                 </div>
+                </div>
                <div class="form-group">
                   <label for="email">Email *</label></td>
                   <input type="text" id="email" name="email">
@@ -32,7 +32,7 @@ include 'inc/header.php'; ?>
                </div>
                <div class="form-group">
                   <label for="comments" style="width:200px" class="text-center">Questions / Comments *</label>
-                  <textarea class="form-control" id="comments" name="comments" rows="4"></textarea>
+                  <textarea class="form-control" rows="4" id="comments" name="comments"></textarea>
                </div>
                <div class="form-group">
                   <input type="submit" class="button orange-button" value="Submit">
