@@ -18,9 +18,9 @@ include 'inc/header.php'; ?>
 						<li><b>Matthew J. Tarter</b></li>
 						<li><i>Denver, CO</i></li>
 						<li><i class="fa fa-github-square"></i><a href="https://github.com/mjtarter" target="_blank"> Github</a></li>
-                	<li><i class="fa fa-linkedin-square"></i><a href="https://www.linkedin.com/in/mjtarter" target="_blank"> Linked In</a></li>
-						<li><span class="glyphicon glyphicon-envelope"></span> Message</li>
-						<li><span class="glyphicon glyphicon-share-alt"></span> Hire Me</li>
+                		<li><i class="fa fa-linkedin-square"></i><a href="https://www.linkedin.com/in/mjtarter" target="_blank"> Linked In</a></li>
+						<li><span class="glyphicon glyphicon-envelope"></span><a href="contact.php"> Message</a></li>
+						<li><span class="glyphicon glyphicon-share-alt"></span><a href="contact.php"> Hire Me</a></li>
 					</ul>
 				</div>
 			</div>
@@ -96,7 +96,7 @@ include 'inc/header.php'; ?>
 			</div>
 			<p class="text-center h3"><b>Hobbies</b></p>
 			<div class="clearfix" style="margin-bottom:50px;">
-				<ul id="hobbies">
+				<ul id="hobbies" class="text-center">
 					<li><i class="fa fa-money"></i> Finance</li>
 					<li><i class="fa fa-university"></i> Investing</li>
 					<li><i class="fa fa-bicycle"></i> Fitness</li>

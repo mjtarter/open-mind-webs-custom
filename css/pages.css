@@ -284,6 +284,11 @@ ul#process li {
     max-width:265px;
 }
 
+    #matt-resume-head a:hover {
+        color:orange;
+        text-decoration:underline;
+    }
+
     #matt-resume-head li:nth-child(1) {
         font-size:1.3em;
     }
