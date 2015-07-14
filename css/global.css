@@ -233,6 +233,11 @@ a:link, a:visited {
 	border-top:3px solid black;
 }
 
+	#footer a:hover {
+		color:gray;
+		text-decoration:underline;
+	}
+
 #footer ul li {
 	font-size:1.25em;
 	float:left; 

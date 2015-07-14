@@ -251,9 +251,9 @@ include 'inc/header.php'; ?>
          <div class="text-center testimonial">
             <p><span class="glyphicon glyphicon-comment"></span></p>
             <blockquote>
-               <p>The team at Open Mind Webs helped our business enter a completely new market segment.  Initially, they researched and developed an understanding of the requirements of a major national retailer. And then, even more importantly, they translated these customer requirements to an action plan for my company.  I highly recommend Open Mind Webs for any e-commerce project.</p>
+               <p>The team at Open Mind Webs helped our business enter a completely new market segment. Initially, they researched and developed an understanding of the requirements of a major national retailer. And then, even more importantly, they translated these customer requirements to an action plan for my company. I highly recommend OMW for any e-commerce project.</p>
                <footer>
-                  <span style="color:tan;"><b>Chris Hupp,</b> VP</span><br><i><span style="color:orange;">Hoffmaster Group Inc</span></i>
+                  <span style="color:tan;"><b>Chris Hupp,</b> VP of Marketing and Consumer Division</span><br><i><span style="color:orange;">WNA</span></i>
                </footer>
             </blockquote>    
          </div>
