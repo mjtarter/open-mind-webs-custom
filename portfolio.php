@@ -74,7 +74,7 @@ include 'inc/header.php'; ?>
 				<div class="col-sm-6">
 					<a href="hoffmaster.php"><img src="img/hoffmaster-dbms.png" class="img-responsive center-block"></a>
 					<p class="h3 text-center"><a href="hoffmaster.php">Hoffmaster</a></p>
-					<p>Hoffmaster is a market leading North American company specializing in the fields of Foodservice, Consumer, and Contract Manufacturing. They came to us with the need for a DBMS to assist them with organizing... <a href="hoffmaster.php">&raquo;More</a></p>
+					<p>Hoffmaster is a market leading North American company specializing in the fields of Foodservice, Consumer, and Contract Manufacturing. They came to me with the need for a DBMS to assist them with organizing... <a href="hoffmaster.php">&raquo;More</a></p>
 				</div>
 			</div>
 			<div class="row">
