@@ -17,6 +17,12 @@
         width:50%;
     }
 
+    #index-carousel #item-1 a:hover,
+    #index-carousel #item-2 a:hover  {
+        text-decoration:underline;
+        color:orange;
+    }
+
     #index-carousel .fa, #index-carousel .glyphicon {
         color:orange;
     } 
@@ -49,10 +55,6 @@
 
     #item-1 p, #item-2 p {
         font-size:1.4em;
-    }
-
-    #item-2 a {
-        text-decoration:underline;
     }
 
 #item-3 {
@@ -441,4 +443,13 @@ ul#services-provided li {
     ul#services-provided li {
         width:100%;
     }
+}
+
+/* ==========================================================================
+    Message Confirmation
+   ========================================================================== */
+   
+.confirmation-body {
+    /* Make shorter pages take up whole viewport*/
+    min-height: calc(100vh - 400px);
 }

@@ -73,7 +73,7 @@ include 'inc/header.php'; ?>
                <p class="text-center"><i>Front End Developer</i></p>
                <img src="img/matt.png" class="img-circle center-block" height=200>
             </div>
-            <ul class="col-sm-3 align-middle no-float">
+            <ul class="col-sm-3 no-float align-middle">
                <li><p><i class="fa fa-github-square"></i> <a href="https://github.com/mjtarter" target="_blank">Github</a></p></li>
                <li><p><i class="fa fa-linkedin-square"></i> <a href="https://www.linkedin.com/in/mjtarter" target="_blank">Linked In</a></p></li>
                <li><p><span class="glyphicon glyphicon-user"></span> <a href="about.php" target="_blank">About Me</a></p></li>
@@ -94,7 +94,7 @@ include 'inc/header.php'; ?>
          </div>
          <div class="carousel-caption">
             <h2 class="text-center">
-               <a href="portfolio.php"><span style="color:white;" class="glyphicon glyphicon-share-alt"></span> View Portfolio</a>
+               <a href="portfolio.php"><span class="glyphicon glyphicon-share-alt"></span> View Portfolio</a>
             </h2>
          </div>
       </div>

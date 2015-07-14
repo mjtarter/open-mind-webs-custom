@@ -133,6 +133,13 @@ $headers = 'From: '.$email_from."\r\n".
  
 <?php include 'inc/header.php'; ?>
 
+<section class="main-content p-vert-50 confirmation-body">
+  <div class="container text-center">
+    <p class="h1">Message Sent!</p>
+      <p>Thank you for contacting me! I will be in touch shortly!</p>
+    </div>
+</section>
+
 <?php include 'inc/footer.php'; ?> 
  
 <?php
