@@ -84,12 +84,12 @@ include 'inc/header.php'; ?>
       <div class="item" id="item-2">
          <div class="container">
             <ul id="portfolio-list">
-               <li class="col-xs-6 col-sm-4"><a href="#"><img src="img/mycampus-island.jpg"></a></li>
-               <li class="col-xs-6 col-sm-4"><a href="#"><img src="img/dropping-dimes.jpg"></a></li>
-               <li class="col-xs-6 col-sm-4"><a href="#"><img src="img/randb.jpg"></a></li>
-               <li class="col-xs-6 col-sm-4"><a href="#"><img src="img/abrams-eyecare.jpg"></a></li>
-               <li class="hidden-xs col-sm-4"><a href="#"><img src="img/ted-green-films.jpg"></a></li>
-               <li class="hidden-xs col-sm-4"><a href="#"><img src="img/the-only.png"></a></li>
+               <li class="col-xs-6 col-sm-4"><a href="mycampusisland.php"><img src="img/mycampus-island.jpg"></a></li>
+               <li class="col-xs-6 col-sm-4"><a href="dropping-dimes.php"><img src="img/dropping-dimes.jpg"></a></li>
+               <li class="col-xs-6 col-sm-4"><a href="rb-architects.php"><img src="img/randb.jpg"></a></li>
+               <li class="col-xs-6 col-sm-4"><a href="abrams-eyecare.php"><img src="img/abrams-eyecare.jpg"></a></li>
+               <li class="hidden-xs col-sm-4"><a href="ted-green-films.php"><img src="img/ted-green-films.jpg"></a></li>
+               <li class="hidden-xs col-sm-4"><a href="the-only.php"><img src="img/the-only.png"></a></li>
             </ul>
          </div>
          <div class="carousel-caption">
@@ -240,7 +240,7 @@ include 'inc/header.php'; ?>
          <div class="text-center testimonial">
             <p><span class="glyphicon glyphicon-comment"></span></p>
             <blockquote>
-               <p>Matt redesigned our existing website with an easy to follow and modern looking appearance. He exceeded our expectations and still to this day responds immediately to all of our update requests. Matt had the technical expertise, communication skills, and work ethic to provide us with a 5-Star web development experience.</p>
+               <p>Matt redesigned our existing website with an easy to follow and modern appearance. He exceeded our expectations and still to this day responds immediately to all of our update requests. Matt had the technical expertise, communication skills, and work ethic to provide us with a 5-Star web development experience.</p>
                <footer>
                   <span style="color:tan;"><b>John Abrams,</b> MD &amp; President</span><br><i><span style="color:orange;">Abrams EyeCare Associates</span></i>
                </footer>
@@ -251,9 +251,9 @@ include 'inc/header.php'; ?>
          <div class="text-center testimonial">
             <p><span class="glyphicon glyphicon-comment"></span></p>
             <blockquote>
-               <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer posuere erat a ante. Morbi nec diam rutrum, sagittis lacus ut, fermentum massa. Morbi nec diam rutrum, sagittis lacus ut, fermentum massa.</p>
+               <p>The team at Open Mind Webs helped our business enter a completely new market segment.  Initially, they researched and developed an understanding of the requirements of a major national retailer. And then, even more importantly, they translated these customer requirements to an action plan for my company.  I highly recommend Open Mind Webs for any e-commerce project.</p>
                <footer>
-                  <span style="color:tan;"><b>Chris Hupp,</b> VP of E-commerce</span><br><i><span style="color:orange;">Hoffmaster Inc</span></i>
+                  <span style="color:tan;"><b>Chris Hupp,</b> VP</span><br><i><span style="color:orange;">Hoffmaster Group Inc</span></i>
                </footer>
             </blockquote>    
          </div>
