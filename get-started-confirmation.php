@@ -8,7 +8,7 @@ if(isset($_POST['email'])) {
  
     $email_to = "mjtarter@openmindwebs.com";
  
-    $email_subject = "MCI Interest";
+    $email_subject = "OMW New Client";
  
      
  
@@ -38,9 +38,7 @@ if(isset($_POST['email'])) {
  
         !isset($_POST['last_name']) ||
  
-        !isset($_POST['email']) ||
-
-        !isset($_POST['summary'])) {
+        !isset($_POST['email'])) {
  
         died('We are sorry, but there appears to be a problem with the form you submitted.');         
  
@@ -51,6 +49,24 @@ if(isset($_POST['email'])) {
     $last_name = $_POST['last_name']; // required
  
     $email_from = $_POST['email']; // required
+
+    $service_1 = $_POST['service_1']; // not required
+
+    $service_2 = $_POST['service_2']; // not required
+
+    $service_3 = $_POST['service_3']; // not required
+
+    $service_4 = $_POST['service_4']; // not required
+
+    $service_5 = $_POST['service_5']; // not required
+
+    $service_6 = $_POST['service_6']; // not required
+
+    $business_category = $_POST['business_category']; // not required
+
+    $budget = $_POST['budget']; // not required
+
+    $phone = $_POST['phone']; // not required
  
     $comments = $_POST['summary']; // not required
 
@@ -99,10 +115,27 @@ if(isset($_POST['email'])) {
 
  
     $email_message .= "Name: ".clean_string($first_name). " " .clean_string($last_name)."\n";
-  
- 
-    $email_message .= clean_string($comments)."\n";
-  
+
+    $email_message .= "Phone: ".clean_string($phone)."\n";  
+
+    $email_message .= "Budget: ".clean_string($budget)."\n";  
+
+    $email_message .= "Business Category: ".clean_string($business_category)."\n";  
+
+    $email_message .= "Project Summary: ".clean_string($comments)."\n\n";  
+
+    $email_message .= "Web Development: ".clean_string($service_1)."\n";  
+
+    $email_message .= "Web Design: ".clean_string($service_2)."\n";  
+
+    $email_message .= "DB Management: ".clean_string($service_3)."\n";  
+
+    $email_message .= "Copywriting / SEO: ".clean_string($service_4)."\n";  
+
+    $email_message .= "E-commerce: ".clean_string($service_5)."\n";  
+
+    $email_message .= "Analytics: ".clean_string($service_6)."\n";  
+    
  
      
  
@@ -123,6 +156,13 @@ $headers = 'From: '.$email_from."\r\n".
 <!-- include your own success html here -->
  
 <?php include 'inc/header.php'; ?>
+
+<section class="main-content p-vert-50 confirmation-body">
+  <div class="container text-center">
+    <p class="h1">Message Sent!</p>
+      <p>Thank you for contacting me! I will be in touch shortly!</p>
+    </div>
+</section>
 
 <?php include 'inc/footer.php'; ?> 
  

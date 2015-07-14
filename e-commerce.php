@@ -30,7 +30,7 @@ include 'inc/header.php'; ?>
 		</div>
 		<div class="col-sm-pull-4 col-sm-8">
 			<h1 class="m-0 text-center"><img src="img/e-commerce.png">E-commerce</h1>
-			<p style="padding-top:20px;">Would you like to take advantage of the convenience of an online store to sell your products? I can help you set up a professional online store on your site that will accept credit cards through a process that is guaranteed to be safe and secure with PayPal. Create a specialized store layout with custom images, descriptions, prices, shipping costs, and dropdowns of colors and sizes for specific items. <b>I have experience working on the back-end of large E-commerce websites like Walmart, Target, and Staples and will make it quick and easy for customers to have a user-friendly and efficient purchase on your website.</b></p>
+			<p style="padding-top:20px;">Would you like to take advantage of the convenience of an online store to sell your products? I can help you set up a professional online store on your site that will accept credit cards through a process that is guaranteed to be safe and secure with PayPal. Create a specialized store layout with custom images, descriptions, prices, shipping costs, and more. <b>I have experience working on the back-end of large E-commerce websites like Walmart, Target, and Staples and will make it quick and easy for customers to have a user-friendly and efficient purchase on your website.</b></p>
 			<button onclick="window.location.href='contact.php'" style="display:block;" class="button lg-button orange-button center-block m-vert-20">Get Started Now</button>
 		</div>
 	</div>

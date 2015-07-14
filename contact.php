@@ -54,24 +54,24 @@ include 'inc/header.php'; ?>
 				 	<div id="services" class="text-center">
 					<div class="checkbox" style="margin-top:0px;">
 					  	<label class="checkbox-inline">
-							<input type="checkbox" name="service_1" id="service_1" value="option1"> Web Development
+							<input type="checkbox" name="service_1" id="service_1" value="yes"> Web Development
 						</label>
 						<label class="checkbox-inline">
-						  	<input type="checkbox" name="service_2" id="service_2" value="option2"> Web Design
+						  	<input type="checkbox" name="service_2" id="service_2" value="yes"> Web Design
 						</label>
 						<label class="checkbox-inline">
-						  	<input type="checkbox" name="service_3" id="service_3" value="option3"> Database Management
+						  	<input type="checkbox" name="service_3" id="service_3" value="yes"> Database Management
 						</label>
 					</div>
 					<div class="checkbox">
 					  	<label class="checkbox-inline">
-						  	<input type="checkbox" name="service_4" id="service_4" value="option1"> Copywriting / SEO
+						  	<input type="checkbox" name="service_4" id="service_4" value="yes"> Copywriting / SEO
 						</label>
 						<label class="checkbox-inline">
-						  	<input type="checkbox" name="service_5" id="service_5" value="option2"> E-commerce
+						  	<input type="checkbox" name="service_5" id="service_5" value="yes"> E-commerce
 						</label>
 						<label class="checkbox-inline">
-						  	<input type="checkbox" name="service_6" id="service_6" value="option3"> Analytics
+						  	<input type="checkbox" name="service_6" id="service_6" value="yes"> Analytics
 						</label>
 					</div>
 				</div>
@@ -94,6 +94,7 @@ include 'inc/header.php'; ?>
 	  			<div class="col-sm-6 form-group" style="padding-left:0px;">
 				 	<label for="budget">Budget</label>
 				  	<select class="form-control" name="budget" id="budget">
+				    	<option>--Select--</option>
 				    	<option>>$1,000</option>
 				  		<option>$1,000 - $ 3,000</option>
 				  		<option>$3,000 - $5,000</option>
