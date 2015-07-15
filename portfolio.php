@@ -7,13 +7,15 @@ include 'inc/header.php'; ?>
 <div class="bg">
 	<div class="jumbotron text-center" id="portfolio-jumbo">
 		<div class="container">
-			<p class="h1"><b>View My Latest Work</b></p>
-			<hr>
-			<p class="hidden-xs">Big or small projects. Responsive, static, simple, or complex websites.</p>
-			<p class="hidden-xs">You name it, I can help.</p>
-			<a href="#websites"><button class="button orange-button">Websites</button></a>
-			<a href="#dbms"><button class="button orange-button">DBMS</button></a>
-			<a href="#copywriting"><button class="button orange-button">Copywriting</button></a>
+			<div class="jumbo-wrapper">
+				<p class="h1"><b>View My Latest Work</b></p>
+				<hr>
+				<p class="hidden-xs"><b>Big or small projects. Responsive, static, simple, or complex websites.</b></p>
+				<p class="hidden-xs"><b>You name it, I can help.</b></p>
+				<a href="#websites"><button class="button orange-button">Websites</button></a>
+				<a href="#dbms"><button class="button orange-button">DBMS</button></a>
+				<a href="#copywriting"><button class="button orange-button">Copywriting</button></a>
+			</div>
 		</div>
 	</div>
 	<section class="tan-bg">
