@@ -29,7 +29,7 @@ include 'inc/header.php'; ?>
 			</ul>
 		</div>
 		<div class="col-sm-pull-4 col-sm-8">
-			<h1 class="m-0 text-center"><img src="img/database-management.png">Database Management</h1>
+			<h1 class="m-0 text-center"><img src="img/database-management.png" class="hidden-xs">Database Management</h1>
 			<p style="padding-top:20px;">Big data is everywhere around us but it is meaningless without the power to quickly and efficiently manage it. There are a variety of ways to manage data ranging from complex systems that include front end interfaces that allow you to sort, add, update, and search as well as simple Microsoft Excel spreadsheets. <b>I have created large systems to assist international companies with managing detailed information for thousands of products and I have also helped individuals keep track of personal belongings for insurance purposes by photographing their items and creating excel spreadsheets with basic info.</b> I’ll work with you to find the method that is most suitable for your needs whether you want to manage thousands of family photos, large quantities of customer data, inventory, etc.
 </p>
 			<button onclick="window.location.href='contact.php'" style="display:block;" class="button lg-button orange-button center-block m-vert-20">Get Started Now</button>

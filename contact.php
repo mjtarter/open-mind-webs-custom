@@ -44,7 +44,7 @@ include 'inc/header.php'; ?>
 </div>
 <!-- End Modal -->
 
-<section class="main-content p-vert-50">
+<section class="main-content p-vert-50 services-template">
 	<div class="container">
 		<div class="col-sm-9">
 			<p class="h2 text-center" style="margin-bottom:15px;">Get Started</p>

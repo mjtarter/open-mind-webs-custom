@@ -29,7 +29,7 @@ include 'inc/header.php'; ?>
 			</ul>
 		</div>
 		<div class="col-sm-pull-4 col-sm-8">
-			<h1 class="m-0 text-center"><img src="img/analytics.png">Analytics</h1>
+			<h1 class="m-0 text-center"><img src="img/analytics.png" class="hidden-xs">Analytics</h1>
 			<p style="padding-top:20px;">I can add powerful tools to your site that capture valuable information and statistics about your website visitors. You will be able to access key metrics that will help you to analyze visitor traffic and get a complete picture of who your audience is.<b> Analytics will help you trace your customer’s path and discover how they reached your website as well as what their user experience was like.</b> You also will have the ability to see how users interact with your website. Just a few of the key metrics we’ll help you to obtain are listed below.</p>
 			<div class="clearfix">
 				<ul class="analytics">
