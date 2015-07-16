@@ -18,12 +18,11 @@
         <link rel="stylesheet" href="css/slicknav.css" />
         <link rel="stylesheet" href="css/global.css" />
         <link rel="stylesheet" href="css/pages.css" />
-        <!--[if lt IE 9]><link rel="stylesheet" type="text/css" href="css/ie8.css" /><![endif]-->
 
         <script src="js/vendor/modernizr-2.8.3-respond-1.4.2.min.js"></script>
     </head>
     <body>
-    	<!--[if lte IE 7]><script src="js/ie6/warning.js"></script><script>window.onload=function(){e("js/ie6/")}</script><![endif]-->
+    	<!--[if lte IE 8]><script src="js/ie6/warning.js"></script><script>window.onload=function(){e("js/ie6/")}</script><![endif]-->
         <nav id="main-nav">
         	<div class="container">
                 <div class="row">

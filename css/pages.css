@@ -35,7 +35,8 @@
 
 #item-1 {
     width:100%; 
-    background: linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)), url('../img/office-photo.jpg'); 
+    background: url('../img/office-photo.jpg'); 
+    background: linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)), url('../img/office-photo.jpg');     
     background-size:auto 100%;
     background-repeat:no-repeat; 
     background-position:center center;
@@ -47,6 +48,7 @@
 }
 
 #item-2 {
+    background: url('../img/black-wallpaper.jpg'); 
     background: linear-gradient(rgba(0, 0, 0, .1), rgba(0, 0, 0, .1)), url('../img/black-wallpaper.jpg'); 
     padding-bottom:110px;
     padding-top:30px;
@@ -58,6 +60,7 @@
     }
 
 #item-3 {
+    background: url('../img/moving-couch.jpg'); 
     background: linear-gradient(rgba(0, 0, 0, .6), rgba(0, 0, 0, .6)), url('../img/moving-couch.jpg'); 
     background-size:100% 100%; 
     background-repeat:no-repeat; 
@@ -187,6 +190,7 @@ table#process td {
     border:black 3px solid; 
     box-shadow: 0px 32px 20px -20px black; 
     border-radius:25px; 
+    background: black; 
     background: linear-gradient(rgba(0, 0, 0, .8), rgba(0, 0, 0, .8)); 
     padding-top:20px; 
     padding-bottom:20px; 
