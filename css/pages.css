@@ -158,27 +158,28 @@ ul#services-buttons li {
     padding-top:30px;
 }
 
-ul#process li {
-    height:110px; 
-    float:left; 
-    margin: 0px .30555% 0px .30555%; 
-    width:10.5%; 
-    display:table; 
-    border-radius:50%;
-    border:2px solid tan;
-    box-shadow:10px 10px #303030;
+table#process {
+    border-collapse:separate;
     margin-bottom:35px;
 }
 
-    ul#process li:nth-child(-n+4) {
+table#process td {
+    height:110px; 
+    width:11%;
+    border-radius:50%;
+    border:2px solid tan;
+    box-shadow:10px 10px #303030;
+}
+
+    table#process td:nth-child(-n+4) {
         background-color:#ff8c00; 
     }
 
-    ul#process li:nth-child(n+5):nth-child(-n+8) {
+    table#process td:nth-child(n+5):nth-child(-n+8) {
         background-color:orange;
     }
 
-    ul#process li:last-child {
+    table#process td:last-child {
         background-color:tan; 
     }
 

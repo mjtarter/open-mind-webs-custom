@@ -201,17 +201,19 @@ include 'inc/header.php'; ?>
 <section id="process-section">
    <div class="container hidden-xs">
       <p class="text-center" id="process-title"><b> How The Process Works </b></p>
-      <ul id="process">
-         <li><p class="text-center vert-middle"> Submit Contact Form</p></li>
-         <li><p class="text-center vert-middle">Initial Meeting</p></li>
-         <li><p class="text-center vert-middle">Estimate</p></li>
-         <li><p class="text-center vert-middle">Interface Design</p></li>
-         <li><p class="text-center vert-middle">Coding</p></li>
-         <li><p class="text-center vert-middle">Feedback</p></li>
-         <li><p class="text-center vert-middle">Testing</p></li>
-         <li><p class="text-center vert-middle">Launch</p></li>
-         <li><p class="text-center vert-middle">Continued Contact</p></li>
-      </ul>
+      <table id="process">
+         <tr>
+            <td class="text-center">Submit Contact Form</td>
+            <td class="text-center">Initial Meeting</td>
+            <td class="text-center">Estimate</td>
+            <td class="text-center">Interface Design</td>
+            <td class="text-center">Coding</td>
+            <td class="text-center">Feedback</td>
+            <td class="text-center">Testing</td>
+            <td class="text-center">Launch</td>
+            <td class="text-center">Continued Contact</td>
+         </tr>
+      </table>
       <div class="process-text col-sm-6">
          <p class="text-center" style="font-size:1.5em;"><b>Planning / Strategy</b></p>
          <p class="text-center">Whether you are interested in a website, database management system, or other web service, there is no reason to feel overwhelmed at the initial stages. I'll help you to find a starting point and take you through the process of coming up with the look, feel, and content structure that will work best for your particular business. All you need is an idea and I can help you throughout the process of planning to completion.</p>
