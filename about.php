@@ -29,7 +29,7 @@ include 'inc/header.php'; ?>
 			<p>After graduating from Indiana University with a degree in Management and a Business Certificate, I decided to stray from my initial career path. I took a leap of faith and began teaching myself to code day and night. I eventually founded this web development / marketing company as well as a student housing based startup (MyCampusIsland.com). I currently spend my time working on MyCampus Island, building awesome websites and web services for my clients at Open Mind Webs, developing content for Lodge Design, and continuing to expand and improve my skills. I moved to Denver from Indianapolis in February of 2015 and am excited for new challenges and opportunities.</p>
 		</div>
 		<div class="hidden-xs hidden-sm col-md-4 vert-middle no-float">
-			<img src="img/web-design.jpg" class="img-responsive">
+			<img src="img/web-design.jpg" class="col-md-12 img-responsive">
 		</div>
 	</div>
 	<div class="container">
