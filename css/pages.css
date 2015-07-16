@@ -463,6 +463,7 @@ ul#services-provided li {
 
 #folio-main-img {
     box-shadow: 0 22px 12px -12px black;
+    width:100%;
 }
 
 #info-box {

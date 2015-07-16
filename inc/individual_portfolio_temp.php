@@ -21,7 +21,7 @@ include 'inc/header.php'; ?>
 				</div>
 				<hr>
 				<p><?php echo $description ?></p>
-				<img src=<?php echo '"' . $img_src . '"' ?> class="hidden-xs hidden-sm img-responsive center-block p-top-15">
+				<img src=<?php echo '"' . $img_src . '"' ?> class="hidden-xs hidden-sm col-md-12 img-responsive center-block p-top-15">
 			</div>
 			<div class="col-sm-6 no-float" id="folio-img-container">
 				<img src=<?php echo '"' . $img2_src . '"' ?> id="folio-main-img" class="img-responsive center-block">
@@ -32,7 +32,7 @@ include 'inc/header.php'; ?>
 			echo '<hr class="hidden-xs hidden-sm">
 			<div class="row hidden-xs hidden-sm">
 				<div class="col-sm-6 no-float vert-middle">
-					<img src="' . $img3_src . '" class="img-responsive center-block p-top-15">
+					<img src="' . $img3_src . '" class="col-xs-12 img-responsive center-block p-top-15">
 				</div>
 				<div class="col-sm-6 no-float vert-middle">
 					<div class="text-center" id="info-box">' .
