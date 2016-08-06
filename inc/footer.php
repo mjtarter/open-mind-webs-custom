@@ -23,7 +23,7 @@
        <div class="p-vert-5" id="copyright">
           <p class="m-0">Open Mind Webs &nbsp; &nbsp; &nbsp;|&nbsp; &nbsp; &nbsp; Denver, CO &nbsp; &nbsp; &nbsp;|&nbsp; &nbsp; &nbsp; Copyright © 2014 Open Mind Webs. All rights reserved.</p>
        <div>
-    </footer>        
+    </footer>
 
         <script src="//ajax.googleapis.com/ajax/libs/jquery/1.11.2/jquery.min.js"></script>
         <script>window.jQuery || document.write('<script src="js/vendor/jquery-1.11.2.min.js"><\/script>')</script>
@@ -39,13 +39,14 @@
                 $('#menu').slicknav();
             });
         </script>
-        <!-- xxx Google Analytics xxx -->
+       <!-- xxx Google Analytics xxx -->
         <script>
-            (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
-            (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
-            m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
-            })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
-            ga('create', 'UA-48303998-1', 'openmindwebs.com');ga('send', 'pageview');
+          (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+          (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+          m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+          })(window,document,'script','https://www.google-analytics.com/analytics.js','ga');
+          ga('create', 'UA-82095455-1', 'auto');
+          ga('send', 'pageview');
         </script>
     </body>
 </html>

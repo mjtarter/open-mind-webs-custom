@@ -8,10 +8,10 @@
         <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
 		<title><?php echo $title ?></title>
         <meta property="og:description" content="Open Mind Webs - The personal site of front end developer, Matt Tarter. Contact me today to obtain your business goals through the web with a professionally developed website!" />
-        <meta property="og:image" content="http://openmindwebs.com/img/work-desk.jpg" />        
+        <meta property="og:image" content="http://openmindwebs.com/img/work-desk.jpg" />
         <meta name="viewport" content="width=device-width, initial-scale=1">
         <link rel="apple-touch-icon" href="apple-touch-icon.png">
-		
+
         <link rel="stylesheet" href="//maxcdn.bootstrapcdn.com/font-awesome/4.3.0/css/font-awesome.min.css">
         <link rel="stylesheet" href="css/bootstrap.min.css">
         <link rel="stylesheet" href="css/bootstrap-theme.min.css">
@@ -20,6 +20,8 @@
         <link rel="stylesheet" href="css/pages.css" />
 
         <script src="js/vendor/modernizr-2.8.3-respond-1.4.2.min.js"></script>
+
+        <meta name="google-site-verification" content="CuotE5yGKVYRXAZjw5gM241QOAe-5Bm8cnDJcKPjMdw" />
     </head>
     <body>
     	<!--[if lte IE 8]><script src="js/ie6/warning.js"></script><script>window.onload=function(){e("js/ie6/")}</script><![endif]-->
